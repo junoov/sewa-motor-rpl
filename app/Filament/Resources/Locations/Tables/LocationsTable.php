@@ -54,7 +54,7 @@ class LocationsTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }

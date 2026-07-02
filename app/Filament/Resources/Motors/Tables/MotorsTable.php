@@ -21,8 +21,7 @@ class MotorsTable
                 ImageColumn::make('image_path')
                     ->label('Foto')
                     ->getStateUsing(fn (Motor $record): string => $record->image_url)
-                    ->square()
-                    ->loading('lazy'),
+                    ->square(),
                 TextColumn::make('name')
                     ->label('Motor')
                     ->searchable()
@@ -106,7 +105,7 @@ class MotorsTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }

@@ -84,7 +84,7 @@ class BookingsTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }

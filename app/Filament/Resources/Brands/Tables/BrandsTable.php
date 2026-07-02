@@ -17,8 +17,7 @@ class BrandsTable
             ->columns([
                 ImageColumn::make('logo_path')
                     ->label('Logo')
-                    ->square()
-                    ->loading('lazy'),
+                    ->square(),
                 TextColumn::make('name')
                     ->label('Brand')
                     ->searchable()
@@ -48,7 +47,7 @@ class BrandsTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }

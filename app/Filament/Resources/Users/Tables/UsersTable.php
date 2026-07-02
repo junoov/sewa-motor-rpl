@@ -45,13 +45,11 @@ class UsersTable
                 ImageColumn::make('ktp_path')
                     ->label('KTP')
                     ->square()
-                    ->toggleable(isToggledHiddenByDefault: true)
-                    ->loading('lazy'),
+                    ->toggleable(isToggledHiddenByDefault: true),
                 ImageColumn::make('sim_path')
                     ->label('SIM')
                     ->square()
-                    ->toggleable(isToggledHiddenByDefault: true)
-                    ->loading('lazy'),
+                    ->toggleable(isToggledHiddenByDefault: true),
                 TextColumn::make('email_verified_at')
                     ->label('Email Verified')
                     ->dateTime('d M Y H:i')
@@ -86,7 +84,7 @@ class UsersTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }

@@ -30,8 +30,7 @@ class PaymentsTable
                     ->sortable(),
                 ImageColumn::make('proof_path')
                     ->label('Bukti')
-                    ->square()
-                    ->loading('lazy'),
+                    ->square(),
                 TextColumn::make('status')
                     ->badge()
                     ->color(fn (string $state): string => match ($state) {
@@ -74,7 +73,7 @@ class PaymentsTable
                 ]),
             ])
             ->deferLoading()
-            ->polling('')
+            ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
     }
