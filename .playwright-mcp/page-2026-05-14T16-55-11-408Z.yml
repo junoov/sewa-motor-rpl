@@ -1,0 +1,186 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MotoRent" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - generic [ref=e12]: MotoRent
+          - generic [ref=e13]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e14]:
+        - link "Beranda" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e18] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e19]:
+        - link "Favorit" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e21]
+          - text: Favorit
+        - link "Akun" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+          - img [ref=e24]
+          - text: Akun
+          - img [ref=e27]
+  - main [ref=e29]:
+    - region "Detail motor Honda Vario 125" [ref=e30]:
+      - navigation "Breadcrumb" [ref=e31]:
+        - link "Beranda" [ref=e32] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e33]: ›
+        - link "Cari Motor" [ref=e34] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - generic [ref=e35]: ›
+        - strong [ref=e36]: Honda Vario 125
+      - generic [ref=e37]:
+        - article [ref=e38]:
+          - generic [ref=e39]: 1 / 5
+          - generic [ref=e40]:
+            - button "Gambar sebelumnya" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+            - img "Honda Vario 125 tampak depan" [ref=e44]
+            - button "Gambar berikutnya" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+          - generic "Galeri Honda Vario 125" [ref=e48]:
+            - button "Honda Vario 125 tampak depan" [ref=e49] [cursor=pointer]:
+              - img "Honda Vario 125 tampak depan" [ref=e50]
+            - button "Honda Vario 125 body samping" [ref=e51] [cursor=pointer]:
+              - img "Honda Vario 125 body samping" [ref=e52]
+            - button "Honda Vario 125 tampak belakang" [ref=e53] [cursor=pointer]:
+              - img "Honda Vario 125 tampak belakang" [ref=e54]
+            - button "Honda Vario 125 tampak katalog" [ref=e55] [cursor=pointer]:
+              - img "Honda Vario 125 tampak katalog" [ref=e56]
+            - button "Detail spion dan headlamp Honda Vario 125" [ref=e57] [cursor=pointer]:
+              - img "Detail spion dan headlamp Honda Vario 125" [ref=e58]
+        - complementary [ref=e59]:
+          - generic [ref=e60]:
+            - heading "Honda Vario 125" [level=1] [ref=e61]
+            - link "Login untuk simpan favorit" [ref=e62] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/login
+              - img [ref=e63]
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - text: 4.9 (120+ review)
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: 2 Helm
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - text: 125 cc
+            - generic [ref=e80]:
+              - img [ref=e81]
+              - text: Matic
+          - paragraph [ref=e84]: Honda Vario 125 adalah skutik matic 125 cc yang irit, responsif, dan nyaman untuk perjalanan harian. Mesin eSP berpendingin cairan dengan sistem injeksi PGM-FI membuat performanya halus, efisien, dan cocok dipakai di jalan kota maupun rute jarak menengah.
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - strong [ref=e87]: Rp 70.000
+              - generic [ref=e88]: /hari
+            - paragraph [ref=e89]: Pilih tanggal sewa dan lokasi pengambilan di langkah booking berikutnya.
+            - link "Booking Sekarang" [ref=e90] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/bookings/create/honda-vario-125
+      - region "Informasi lengkap Honda Vario 125" [ref=e91]:
+        - article [ref=e92]:
+          - heading "Deskripsi" [level=2] [ref=e93]
+          - paragraph [ref=e94]: Honda Vario 125 adalah skutik matic 125 cc yang irit, responsif, dan nyaman untuk perjalanan harian. Mesin eSP berpendingin cairan dengan sistem injeksi PGM-FI membuat performanya halus, efisien, dan cocok dipakai di jalan kota maupun rute jarak menengah.
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading "Spesifikasi" [level=2] [ref=e97]
+            - button "Lihat semua" [ref=e98] [cursor=pointer]
+          - generic "Spesifikasi ringkas Honda Vario 125" [ref=e99]:
+            - article [ref=e100]:
+              - img [ref=e101]
+              - generic [ref=e103]:
+                - text: Tahun
+                - strong [ref=e104]: "2024"
+            - article [ref=e105]:
+              - img [ref=e106]
+              - generic [ref=e111]:
+                - text: Kapasitas
+                - strong [ref=e112]: 2 Orang
+            - article [ref=e113]:
+              - img [ref=e114]
+              - generic [ref=e117]:
+                - text: Bahan Bakar
+                - strong [ref=e118]: Bensin
+            - article [ref=e119]:
+              - img [ref=e120]
+              - generic [ref=e124]:
+                - text: Bagasi
+                - strong [ref=e125]: 18 Liter
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - term [ref=e128]: Tipe Mesin
+              - definition [ref=e129]: eSP, 4 Langkah, SOHC
+            - generic [ref=e130]:
+              - term [ref=e131]: Sistem Pendingin
+              - definition [ref=e132]: Pendingin Cairan
+            - generic [ref=e133]:
+              - term [ref=e134]: Kapasitas Mesin
+              - definition [ref=e135]: 124,8 cc
+            - generic [ref=e136]:
+              - term [ref=e137]: Transmisi
+              - definition [ref=e138]: Otomatis V-Matic
+            - generic [ref=e139]:
+              - term [ref=e140]: Daya Maksimum
+              - definition [ref=e141]: 8,2 kW / 8.500 rpm
+            - generic [ref=e142]:
+              - term [ref=e143]: Kapasitas Tangki
+              - definition [ref=e144]: 5,5 Liter
+            - generic [ref=e145]:
+              - term [ref=e146]: Torsi Maksimum
+              - definition [ref=e147]: 10,8 Nm / 5.000 rpm
+            - generic [ref=e148]:
+              - term [ref=e149]: Berat
+              - definition [ref=e150]: 112 kg
+      - generic [ref=e151]:
+        - heading "Ketersediaan Motor" [level=2] [ref=e152]
+        - paragraph [ref=e153]: Tanggal berwarna merah menandakan motor sedang disewa. Tanggal hijau tersedia untuk booking.
+        - generic [ref=e155]:
+          - generic [ref=e156]: Mei 2026
+          - generic [ref=e157]:
+            - generic [ref=e158]: Min
+            - generic [ref=e159]: Sen
+            - generic [ref=e160]: Sel
+            - generic [ref=e161]: Rab
+            - generic [ref=e162]: Kam
+            - generic [ref=e163]: Jum
+            - generic [ref=e164]: Sab
+            - generic [ref=e170]: "1"
+            - generic [ref=e171]: "2"
+            - generic [ref=e172]: "3"
+            - generic [ref=e173]: "4"
+            - generic [ref=e174]: "5"
+            - generic [ref=e175]: "6"
+            - generic [ref=e176]: "7"
+            - generic [ref=e177]: "8"
+            - generic [ref=e178]: "9"
+            - generic [ref=e179]: "10"
+            - generic [ref=e180]: "11"
+            - generic [ref=e181]: "12"
+            - generic [ref=e182]: "13"
+            - generic [ref=e183]: "14"
+            - generic [ref=e184]: "15"
+            - generic [ref=e185]: "16"
+            - generic [ref=e186]: "17"
+            - generic [ref=e187]: "18"
+            - generic [ref=e188]: "19"
+            - generic [ref=e189]: "20"
+            - generic [ref=e190]: "21"
+            - generic [ref=e191]: "22"
+            - generic [ref=e192]: "23"
+            - generic [ref=e193]: "24"
+            - generic [ref=e194]: "25"
+            - generic [ref=e195]: "26"
+            - generic [ref=e196]: "27"
+            - generic [ref=e197]: "28"
+            - generic [ref=e198]: "29"
+            - generic [ref=e199]: "30"
+            - generic [ref=e200]: "31"
+        - generic [ref=e201]:
+          - generic [ref=e202]: Tersedia
+          - generic [ref=e204]: Tidak Tersedia

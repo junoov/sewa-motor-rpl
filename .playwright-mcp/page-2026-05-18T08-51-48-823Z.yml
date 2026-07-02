@@ -1,0 +1,44 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kembali" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account#account-activity
+        - img [ref=e6]
+      - generic [ref=e8]: Pembayaran
+      - link "Cari motor lain" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/cari-motor
+        - img [ref=e11]
+    - generic [ref=e14]:
+      - article [ref=e16]:
+        - heading "Ringkasan Pesanan" [level=2] [ref=e17]
+        - generic [ref=e18]:
+          - img "Honda Vario 125" [ref=e19]
+          - generic [ref=e20]:
+            - heading "Honda Vario 125" [level=3] [ref=e21]
+            - generic [ref=e23]:
+              - img [ref=e24]
+              - text: 30 April 2026 – 08 Mei 2026 (8 Hari)
+            - generic [ref=e27]:
+              - img [ref=e28]
+              - text: Jl. Malioboro No. 21, Yogyakarta
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - text: "Kode Booking: MR-20260429-NO8BC"
+        - generic [ref=e34]:
+          - generic [ref=e35]: Total
+          - strong [ref=e36]: Rp 570.000
+      - article [ref=e38]:
+        - heading "Ringkasan Pembayaran" [level=2] [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: Total Pembayaran
+          - strong [ref=e42]: Rp 570.000
+        - generic [ref=e43]:
+          - generic [ref=e44]: Status Pembayaran
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - text: Dibatalkan
+        - generic [ref=e49]:
+          - img [ref=e50]
+          - generic [ref=e54]: Pesanan ini dibatalkan karena melewati batas waktu pembayaran.
+        - link "Cari Motor Lain" [ref=e55] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor

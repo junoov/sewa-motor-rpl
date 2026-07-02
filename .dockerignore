@@ -1,0 +1,47 @@
+# Dependencies (di-install di dalam container via named volume)
+vendor/
+node_modules/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+.fleet/
+.nova/
+.zed/
+
+# Docker (jangan recursive copy)
+docker/mysql/data/
+docker/redis/data/
+
+# Cache & logs
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+
+# Testing
+.phpunit.result.cache
+.phpunit.cache/
+tests/
+
+# Dev tools
+.editorconfig
+.env
+.env.backup
+.env.production
+
+# Project docs & misc
+*.md
+*.log
+.codegraph/
+.omo/
+.sisyphus/
+.playwright-mcp/
+downloads/
+output/

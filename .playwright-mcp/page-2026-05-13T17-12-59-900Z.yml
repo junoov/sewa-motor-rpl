@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MotoRent" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e5]
+        - generic [ref=e10]:
+          - generic [ref=e11]: MotoRent
+          - generic [ref=e12]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e13]:
+        - link "Beranda" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e18]:
+        - link "Favorit" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e20]
+          - text: Favorit
+        - link "Akun" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account
+          - img [ref=e23]
+          - text: Akun
+          - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - heading "Pesanan Saya" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - link "MR-20260513-KZQJIKawasaki Z250 16 May 2026 - 30 May 2026 Rp 2.110.000 menunggu pembayaran" [ref=e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-KZQJI?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e34]: MR-20260513-KZQJIKawasaki Z250
+          - generic [ref=e35]: 16 May 2026 - 30 May 2026
+          - generic [ref=e36]: Rp 2.110.000
+          - generic [ref=e37]: menunggu pembayaran
+        - link "MR-20260513-IGKIGKawasaki Z250 14 May 2026 - 16 May 2026 Rp 310.000 menunggu pembayaran" [ref=e38] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-IGKIG?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e39]: MR-20260513-IGKIGKawasaki Z250
+          - generic [ref=e40]: 14 May 2026 - 16 May 2026
+          - generic [ref=e41]: Rp 310.000
+          - generic [ref=e42]: menunggu pembayaran
+        - link "MR-20260513-BTPXTHonda Beat 23 May 2026 - 24 May 2026 Rp 65.000 menunggu pembayaran" [ref=e43] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-BTPXT?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e44]: MR-20260513-BTPXTHonda Beat
+          - generic [ref=e45]: 23 May 2026 - 24 May 2026
+          - generic [ref=e46]: Rp 65.000
+          - generic [ref=e47]: menunggu pembayaran
+        - link "MR-20260513-7YJXKKawasaki Z250 15 May 2026 - 23 May 2026 Rp 1.210.000 menunggu pembayaran" [ref=e48] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-7YJXK?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e49]: MR-20260513-7YJXKKawasaki Z250
+          - generic [ref=e50]: 15 May 2026 - 23 May 2026
+          - generic [ref=e51]: Rp 1.210.000
+          - generic [ref=e52]: menunggu pembayaran
+        - link "MR-20260513-N7I7CYamaha Aerox 155 14 May 2026 - 16 May 2026 Rp 180.000 menunggu pembayaran" [ref=e53] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-N7I7C?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e54]: MR-20260513-N7I7CYamaha Aerox 155
+          - generic [ref=e55]: 14 May 2026 - 16 May 2026
+          - generic [ref=e56]: Rp 180.000
+          - generic [ref=e57]: menunggu pembayaran
+        - link "MR-20260513-DX8KZYamaha NMAX 155 14 May 2026 - 16 May 2026 Rp 190.000 menunggu pembayaran" [ref=e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-DX8KZ?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e59]: MR-20260513-DX8KZYamaha NMAX 155
+          - generic [ref=e60]: 14 May 2026 - 16 May 2026
+          - generic [ref=e61]: Rp 190.000
+          - generic [ref=e62]: menunggu pembayaran
+        - link "MR-20260513-C8WNXYamaha Aerox 155 15 May 2026 - 27 May 2026 Rp 1.030.000 menunggu pembayaran" [ref=e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-C8WNX?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e64]: MR-20260513-C8WNXYamaha Aerox 155
+          - generic [ref=e65]: 15 May 2026 - 27 May 2026
+          - generic [ref=e66]: Rp 1.030.000
+          - generic [ref=e67]: menunggu pembayaran
+        - link "MR-20260513-NDBDAHonda Beat 14 May 2026 - 16 May 2026 Rp 120.000 menunggu pembayaran" [ref=e68] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260513-NDBDA?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Fbookings
+          - generic [ref=e69]: MR-20260513-NDBDAHonda Beat
+          - generic [ref=e70]: 14 May 2026 - 16 May 2026
+          - generic [ref=e71]: Rp 120.000
+          - generic [ref=e72]: menunggu pembayaran

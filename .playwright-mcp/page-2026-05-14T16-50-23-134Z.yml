@@ -1,0 +1,74 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MotoRent" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e5]
+        - generic [ref=e10]:
+          - generic [ref=e11]: MotoRent
+          - generic [ref=e12]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e13]:
+        - link "Beranda" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e18]:
+        - link "Favorit" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e20]
+          - text: Favorit
+        - link "Akun" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+          - img [ref=e23]
+          - text: Akun
+          - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - complementary [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img [ref=e33]
+          - generic [ref=e34]: MotoRent
+        - generic [ref=e35]:
+          - heading [level=2] [ref=e36]: Sewa Motor Mudah, Cepat & Terpercaya
+          - paragraph [ref=e37]: Masuk untuk melanjutkan booking, melihat riwayat sewa, dan mengelola perjalananmu lebih cepat.
+        - img [ref=e39]
+      - article [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Selamat Datang Kembali 👋" [level=1] [ref=e42]
+          - paragraph [ref=e43]: Masuk untuk melanjutkan ke akun Anda dan lanjutkan proses penyewaan motor dengan lebih cepat.
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: Email atau Nomor Telepon
+            - textbox "Email atau Nomor Telepon" [active] [ref=e47]:
+              - /placeholder: Masukkan email atau nomor telepon
+          - generic [ref=e48]:
+            - generic [ref=e49]: Kata Sandi
+            - generic [ref=e50]:
+              - textbox "Kata Sandi" [ref=e51]:
+                - /placeholder: Masukkan kata sandi
+              - button "Tampilkan kata sandi" [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - checkbox "Ingat saya" [ref=e58]
+              - generic [ref=e59]: Ingat saya
+            - link "Lupa kata sandi?" [ref=e60] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/lupa-password
+          - button "Masuk" [ref=e61] [cursor=pointer]
+          - generic [ref=e62]: atau masuk dengan
+          - generic "Metode login alternatif" [ref=e63]:
+            - button "Google" [disabled] [ref=e64]:
+              - img [ref=e65]
+              - generic [ref=e70]: Google
+            - button "Apple" [disabled] [ref=e71]:
+              - img [ref=e72]
+              - generic [ref=e74]: Apple
+        - paragraph [ref=e75]:
+          - text: Belum punya akun?
+          - link "Daftar sekarang" [ref=e76] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/register

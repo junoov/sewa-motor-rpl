@@ -1,0 +1,70 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kembali" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/cari-motor/honda-vario-125
+        - img [ref=e6]
+      - generic [ref=e8]: Booking Motor
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - article [ref=e11]:
+          - img "Honda Vario 125" [ref=e12]
+          - heading "Honda Vario 125" [level=2] [ref=e14]
+          - generic [ref=e15]:
+            - strong [ref=e16]: Rp 70.000
+            - generic [ref=e17]: /hari
+        - generic [ref=e18] [cursor=pointer]:
+          - img [ref=e20]
+          - generic [ref=e23]:
+            - generic [ref=e24]: Lokasi Pengambilan
+            - combobox "Lokasi Pengambilan" [ref=e26]:
+              - option "Pilih lokasi pengambilan" [disabled]
+              - option "MotoRent Bali - Bali"
+              - option "MotoRent Jakarta Pusat - Jakarta" [selected]
+              - option "MotoRent Yogyakarta - Yogyakarta"
+          - img [ref=e28]
+        - generic [ref=e30] [cursor=pointer]:
+          - img [ref=e32]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Tanggal Mulai
+            - textbox "Tanggal Mulai" [ref=e37]: 2026-05-15
+          - img [ref=e39]
+        - generic [ref=e41] [cursor=pointer]:
+          - img [ref=e43]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Tanggal Selesai
+            - textbox "Tanggal Selesai" [ref=e48]: 2026-05-17
+          - img [ref=e50]
+        - article [ref=e52] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e56]:
+            - generic [ref=e57]: Metode Pembayaran
+            - combobox [ref=e59]:
+              - option "Pilih metode pembayaran" [disabled] [selected]
+              - option "Transfer Bank BCA"
+              - option "Transfer Bank BRI"
+              - option "Transfer Bank Mandiri"
+              - option "Transfer Bank BNI"
+              - option "GoPay"
+              - option "OVO"
+              - option "DANA"
+              - option "QRIS"
+          - img [ref=e61]
+      - complementary [ref=e63]:
+        - article [ref=e64]:
+          - heading "Ringkasan Pembayaran" [level=2] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - text: Harga Sewa (
+              - generic [ref=e68]: "2"
+              - text: hari)
+            - generic [ref=e69]: Rp 140.000
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - text: Biaya Layanan
+              - img [ref=e72]
+            - generic [ref=e74]: Rp 10.000
+          - generic [ref=e75]:
+            - strong [ref=e76]: Total Pembayaran
+            - generic [ref=e77]: Rp 150.000
+          - button "Lanjutkan Pembayaran" [ref=e78] [cursor=pointer]

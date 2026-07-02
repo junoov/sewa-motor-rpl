@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MotoRent" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - generic [ref=e12]: MotoRent
+          - generic [ref=e13]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e14]:
+        - link "Beranda" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e18] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e19]:
+        - link "Favorit" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e21]
+          - text: Favorit
+        - link "Akun" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+          - img [ref=e24]
+          - text: Akun
+          - img [ref=e27]
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Daftar Motor" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Temukan motor terbaik untuk perjalananmu dengan harga terjangkau dan layanan terbaik.
+      - generic [ref=e35]:
+        - complementary "Filter pencarian motor" [ref=e36]:
+          - generic [ref=e37]:
+            - heading "Tipe Motor" [level=2] [ref=e38]
+            - generic [ref=e39]:
+              - button "Semua" [ref=e40] [cursor=pointer]:
+                - img [ref=e41]
+                - generic [ref=e46]: Semua
+              - button "Matic" [ref=e47] [cursor=pointer]:
+                - img [ref=e48]
+                - generic [ref=e53]: Matic
+              - button "Sport" [ref=e54] [cursor=pointer]:
+                - img [ref=e55]
+                - generic [ref=e60]: Sport
+              - button "Naked" [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+                - generic [ref=e67]: Naked
+              - button "Trail" [ref=e68] [cursor=pointer]:
+                - img [ref=e69]
+                - generic [ref=e74]: Trail
+              - button "Classic" [ref=e75] [cursor=pointer]:
+                - img [ref=e76]
+                - generic [ref=e81]: Classic
+          - generic [ref=e82]:
+            - heading "Rentang Harga / Hari" [level=2] [ref=e83]
+            - generic [ref=e84]: Rp 55.000 - Rp 180.000
+            - generic [ref=e85]:
+              - slider: "55000"
+              - slider: "180000"
+          - generic [ref=e88]:
+            - heading "Kapasitas Mesin" [level=2] [ref=e89]
+            - generic [ref=e90]:
+              - generic [ref=e91] [cursor=pointer]:
+                - checkbox "Semua" [checked] [ref=e92]
+                - generic [ref=e93]: Semua
+              - generic [ref=e94] [cursor=pointer]:
+                - checkbox "< 125 cc" [ref=e95]
+                - generic [ref=e96]: < 125 cc
+              - generic [ref=e97] [cursor=pointer]:
+                - checkbox "125 - 150 cc" [ref=e98]
+                - generic [ref=e99]: 125 - 150 cc
+              - generic [ref=e100] [cursor=pointer]:
+                - checkbox "150 - 200 cc" [ref=e101]
+                - generic [ref=e102]: 150 - 200 cc
+              - generic [ref=e103] [cursor=pointer]:
+                - checkbox "> 200 cc" [ref=e104]
+                - generic [ref=e105]: "> 200 cc"
+          - generic [ref=e106]:
+            - heading "Transmisi" [level=2] [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e109] [cursor=pointer]:
+                - checkbox "Semua" [checked] [ref=e110]
+                - generic [ref=e111]: Semua
+              - generic [ref=e112] [cursor=pointer]:
+                - checkbox "Matic" [ref=e113]
+                - generic [ref=e114]: Matic
+              - generic [ref=e115] [cursor=pointer]:
+                - checkbox "Manual" [ref=e116]
+                - generic [ref=e117]: Manual
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img [ref=e121]
+              - searchbox [ref=e124]
+            - combobox "Urutkan hasil" [ref=e126]:
+              - 'option "Urutkan: Popularitas" [selected]'
+              - 'option "Urutkan: Harga Terendah"'
+              - 'option "Urutkan: Harga Tertinggi"'
+              - 'option "Urutkan: Rating Terbaik"'
+          - generic [ref=e128]:
+            - heading "8 motor ditemukan" [level=2] [ref=e129]
+            - paragraph [ref=e130]: Filter, cari, dan pilih unit yang paling cocok untuk rute dan budget perjalananmu.
+          - generic [ref=e131]:
+            - article [ref=e132]:
+              - link "Lihat detail Honda Vario 125" [ref=e133] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/honda-vario-125
+              - link "Login untuk simpan favorit" [ref=e134] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e135]
+              - img "Honda Vario 125" [ref=e138]
+              - generic [ref=e139]:
+                - heading "Honda Vario 125" [level=3] [ref=e140]
+                - generic [ref=e141]:
+                  - img [ref=e142]
+                  - generic [ref=e144]: 4.9 (120+ review)
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - img [ref=e147]
+                    - text: 2 Helm
+                  - generic [ref=e151]:
+                    - img [ref=e152]
+                    - text: 125 cc
+                  - generic [ref=e154]:
+                    - img [ref=e155]
+                    - text: Matic
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - strong [ref=e160]: Rp 70.000
+                  - generic [ref=e161]: /hari
+                - link "Lihat Detail" [ref=e162] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/honda-vario-125
+            - article [ref=e163]:
+              - link "Lihat detail Vespa Sprint" [ref=e164] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/vespa-sprint
+              - link "Login untuk simpan favorit" [ref=e165] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e166]
+              - img "Vespa Sprint" [ref=e169]
+              - generic [ref=e170]:
+                - heading "Vespa Sprint" [level=3] [ref=e171]
+                - generic [ref=e172]:
+                  - img [ref=e173]
+                  - generic [ref=e175]: 4.9 (45+ review)
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - img [ref=e178]
+                    - text: 2 Helm
+                  - generic [ref=e182]:
+                    - img [ref=e183]
+                    - text: 150 cc
+                  - generic [ref=e185]:
+                    - img [ref=e186]
+                    - text: Matic
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - strong [ref=e191]: Rp 120.000
+                  - generic [ref=e192]: /hari
+                - link "Lihat Detail" [ref=e193] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/vespa-sprint
+            - article [ref=e194]:
+              - link "Lihat detail Yamaha NMAX 155" [ref=e195] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/yamaha-nmax-155
+              - link "Login untuk simpan favorit" [ref=e196] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e197]
+              - img "Yamaha NMAX 155" [ref=e200]
+              - generic [ref=e201]:
+                - heading "Yamaha NMAX 155" [level=3] [ref=e202]
+                - generic [ref=e203]:
+                  - img [ref=e204]
+                  - generic [ref=e206]: 4.8 (95+ review)
+                - generic [ref=e207]:
+                  - generic [ref=e208]:
+                    - img [ref=e209]
+                    - text: 2 Helm
+                  - generic [ref=e213]:
+                    - img [ref=e214]
+                    - text: 155 cc
+                  - generic [ref=e216]:
+                    - img [ref=e217]
+                    - text: Matic
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - strong [ref=e222]: Rp 90.000
+                  - generic [ref=e223]: /hari
+                - link "Lihat Detail" [ref=e224] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/yamaha-nmax-155
+            - article [ref=e225]:
+              - link "Lihat detail Kawasaki Z250" [ref=e226] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/kawasaki-z250
+              - link "Login untuk simpan favorit" [ref=e227] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e228]
+              - img "Kawasaki Z250" [ref=e231]
+              - generic [ref=e232]:
+                - heading "Kawasaki Z250" [level=3] [ref=e233]
+                - generic [ref=e234]:
+                  - img [ref=e235]
+                  - generic [ref=e237]: 4.9 (65+ review)
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - img [ref=e240]
+                    - text: 2 Helm
+                  - generic [ref=e244]:
+                    - img [ref=e245]
+                    - text: 250 cc
+                  - generic [ref=e247]:
+                    - img [ref=e248]
+                    - text: Manual
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - strong [ref=e253]: Rp 150.000
+                  - generic [ref=e254]: /hari
+                - link "Lihat Detail" [ref=e255] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/kawasaki-z250
+            - article [ref=e256]:
+              - link "Lihat detail Yamaha Aerox 155" [ref=e257] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/yamaha-aerox-155
+              - link "Login untuk simpan favorit" [ref=e258] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e259]
+              - img "Yamaha Aerox 155" [ref=e262]
+              - generic [ref=e263]:
+                - heading "Yamaha Aerox 155" [level=3] [ref=e264]
+                - generic [ref=e265]:
+                  - img [ref=e266]
+                  - generic [ref=e268]: 4.8 (70+ review)
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - img [ref=e271]
+                    - text: 2 Helm
+                  - generic [ref=e275]:
+                    - img [ref=e276]
+                    - text: 155 cc
+                  - generic [ref=e278]:
+                    - img [ref=e279]
+                    - text: Matic
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - strong [ref=e284]: Rp 85.000
+                  - generic [ref=e285]: /hari
+                - link "Lihat Detail" [ref=e286] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/yamaha-aerox-155
+            - article [ref=e287]:
+              - link "Lihat detail Benelli Imperiale" [ref=e288] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/benelli-imperiale
+              - link "Login untuk simpan favorit" [ref=e289] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e290]
+              - img "Benelli Imperiale" [ref=e293]
+              - generic [ref=e294]:
+                - heading "Benelli Imperiale" [level=3] [ref=e295]
+                - generic [ref=e296]:
+                  - img [ref=e297]
+                  - generic [ref=e299]: 4.8 (38+ review)
+                - generic [ref=e300]:
+                  - generic [ref=e301]:
+                    - img [ref=e302]
+                    - text: 2 Helm
+                  - generic [ref=e306]:
+                    - img [ref=e307]
+                    - text: 374 cc
+                  - generic [ref=e309]:
+                    - img [ref=e310]
+                    - text: Manual
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - strong [ref=e315]: Rp 180.000
+                  - generic [ref=e316]: /hari
+                - link "Lihat Detail" [ref=e317] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/benelli-imperiale
+            - article [ref=e318]:
+              - link "Lihat detail Honda Beat" [ref=e319] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/honda-beat
+              - link "Login untuk simpan favorit" [ref=e320] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e321]
+              - img "Honda Beat" [ref=e324]
+              - generic [ref=e325]:
+                - heading "Honda Beat" [level=3] [ref=e326]
+                - generic [ref=e327]:
+                  - img [ref=e328]
+                  - generic [ref=e330]: 4.7 (80+ review)
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - img [ref=e333]
+                    - text: 2 Helm
+                  - generic [ref=e337]:
+                    - img [ref=e338]
+                    - text: 110 cc
+                  - generic [ref=e340]:
+                    - img [ref=e341]
+                    - text: Matic
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - strong [ref=e346]: Rp 55.000
+                  - generic [ref=e347]: /hari
+                - link "Lihat Detail" [ref=e348] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/honda-beat
+            - article [ref=e349]:
+              - link "Lihat detail Kawasaki KLX" [ref=e350] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/cari-motor/kawasaki-klx
+              - link "Login untuk simpan favorit" [ref=e351] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+                - img [ref=e352]
+              - img "Kawasaki KLX" [ref=e355]
+              - generic [ref=e356]:
+                - heading "Kawasaki KLX" [level=3] [ref=e357]
+                - generic [ref=e358]:
+                  - img [ref=e359]
+                  - generic [ref=e361]: 4.7 (44+ review)
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - img [ref=e364]
+                    - text: 2 Helm
+                  - generic [ref=e368]:
+                    - img [ref=e369]
+                    - text: 150 cc
+                  - generic [ref=e371]:
+                    - img [ref=e372]
+                    - text: Manual
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - strong [ref=e377]: Rp 130.000
+                  - generic [ref=e378]: /hari
+                - link "Lihat Detail" [ref=e379] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/cari-motor/kawasaki-klx

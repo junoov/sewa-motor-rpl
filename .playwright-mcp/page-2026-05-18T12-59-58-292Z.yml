@@ -1,0 +1,41 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kembali" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account#account-activity
+        - img [ref=e6]
+      - generic [ref=e8]: Pembayaran
+    - generic [ref=e10]:
+      - article [ref=e12]:
+        - heading "Ringkasan Pesanan" [level=2] [ref=e13]
+        - generic [ref=e14]:
+          - img "Honda Vario 125" [ref=e15]
+          - generic [ref=e16]:
+            - heading "Honda Vario 125" [level=3] [ref=e17]
+            - generic [ref=e19]:
+              - img [ref=e20]
+              - text: 30 April 2026 – 05 Mei 2026 (5 Hari)
+            - generic [ref=e23]:
+              - img [ref=e24]
+              - text: Jl. Sudirman No. 10, Jakarta
+            - generic [ref=e28]:
+              - img [ref=e29]
+              - text: "Kode Booking: MR-20260429-9NCMB"
+        - generic [ref=e30]:
+          - generic [ref=e31]: Total
+          - strong [ref=e32]: Rp 360.000
+      - article [ref=e34]:
+        - heading "Ringkasan Pembayaran" [level=2] [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Total Pembayaran
+          - strong [ref=e38]: Rp 360.000
+        - generic [ref=e39]:
+          - generic [ref=e40]: Status Pembayaran
+          - generic [ref=e41]:
+            - img [ref=e42]
+            - text: Dibatalkan
+        - generic [ref=e45]:
+          - img [ref=e46]
+          - generic [ref=e50]: Pesanan ini dibatalkan karena melewati batas waktu pembayaran.
+        - link "Cari Motor Lain" [ref=e51] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor

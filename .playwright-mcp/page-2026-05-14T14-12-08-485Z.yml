@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Buka menu navigasi" [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+      - link "MotoRent" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e7]
+        - generic [ref=e13]: MotoRent
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "Sewa Motor Jadi Lebih Mudah & Cepat" [level=1] [ref=e29]:
+            - text: Sewa Motor Jadi
+            - text: Lebih Mudah & Cepat
+          - paragraph [ref=e30]:
+            - text: Temukan motor terbaik untuk setiap perjalananmu.
+            - text: Proses cepat, aman, dan harga transparan.
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - text: Banyak Pilihan Motor
+            - generic [ref=e35]:
+              - img [ref=e36]
+              - text: Harga Terbaik
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - text: Proses Instan
+        - generic:
+          - img "Skuter putih"
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e45]
+            - generic [ref=e48]:
+              - generic [ref=e49]: Lokasi
+              - generic [ref=e50]:
+                - combobox "Lokasi" [ref=e51]:
+                  - option "Jakarta, Indonesia" [selected]
+                  - option "Yogyakarta"
+                  - option "Bali"
+                - img [ref=e52]
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e58]:
+              - generic [ref=e59]: Tanggal Mulai
+              - textbox "Tanggal Mulai" [ref=e61]:
+                - /placeholder: Pilih tanggal
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e66]:
+              - generic [ref=e67]: Tanggal Selesai
+              - textbox "Tanggal Selesai" [ref=e69]:
+                - /placeholder: Pilih tanggal
+          - generic [ref=e70]:
+            - img [ref=e72]
+            - generic [ref=e76]:
+              - generic [ref=e77]: Jenis Motor
+              - generic [ref=e78]:
+                - combobox "Jenis Motor" [ref=e79]:
+                  - option "Semua Jenis" [selected]
+                  - option "Matic"
+                  - option "Sport"
+                  - option "Naked"
+                  - option "Trail"
+                - img [ref=e80]
+          - button "Cari Motor" [ref=e82]:
+            - img [ref=e83]
+            - text: Cari Motor
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - generic [ref=e92]:
+              - heading "Proses Cepat" [level=4] [ref=e93]
+              - paragraph [ref=e94]: Reservasi instan, tanpa ribet
+          - generic [ref=e95]:
+            - img [ref=e97]
+            - generic [ref=e100]:
+              - heading "Motor Terawat" [level=4] [ref=e101]
+              - paragraph [ref=e102]: Selalu bersih & prima
+          - generic [ref=e103]:
+            - img [ref=e105]
+            - generic [ref=e109]:
+              - heading "Harga Transparan" [level=4] [ref=e110]
+              - paragraph [ref=e111]: Tanpa biaya tersembunyi
+          - generic [ref=e112]:
+            - img [ref=e114]
+            - generic [ref=e117]:
+              - heading "Bantuan 24/7" [level=4] [ref=e118]
+              - paragraph [ref=e119]: Kami siap membantu
+          - generic [ref=e120]:
+            - img [ref=e122]
+            - generic [ref=e125]:
+              - heading "Asuransi" [level=4] [ref=e126]
+              - paragraph [ref=e127]: Perlindungan selama sewa
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - heading "Pilihan Brand Terbaik" [level=2] [ref=e130]
+        - link "Lihat semua brand" [ref=e131] [cursor=pointer]:
+          - /url: "#"
+          - text: Lihat semua brand
+          - img [ref=e132]
+      - generic [ref=e134]:
+        - button "Filter merek Honda" [ref=e135]:
+          - img "Honda" [ref=e137]
+          - strong [ref=e138]: Honda
+        - button "Filter merek Yamaha" [ref=e139]:
+          - img "Yamaha" [ref=e141]
+          - strong [ref=e142]: Yamaha
+        - button "Filter merek Suzuki" [ref=e143]:
+          - img "Suzuki" [ref=e145]
+          - strong [ref=e146]: Suzuki
+        - button "Filter merek Kawasaki" [ref=e147]:
+          - img "Kawasaki" [ref=e149]
+          - strong [ref=e150]: Kawasaki
+        - button "Filter merek Vespa" [ref=e151]:
+          - img "Vespa" [ref=e153]
+          - strong [ref=e154]: Vespa
+        - button "Filter merek KTM" [ref=e155]:
+          - img "KTM" [ref=e157]
+          - strong [ref=e158]: KTM
+        - button "Filter merek BMW" [ref=e159]:
+          - emphasis [ref=e161]: BMW
+          - strong [ref=e162]: BMW
+        - button "Filter merek Aprilia" [ref=e163]:
+          - emphasis [ref=e165]: aprilia
+          - strong [ref=e166]: Aprilia
+        - button "Filter merek Benelli" [ref=e167]:
+          - img "Benelli" [ref=e169]
+          - strong [ref=e170]: Benelli
+        - button "Filter merek TVS" [ref=e171]:
+          - img "TVS" [ref=e173]
+          - strong [ref=e174]: TVS
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - heading "Jenis Motor" [level=2] [ref=e177]
+        - link "Lihat semua jenis" [ref=e178] [cursor=pointer]:
+          - /url: "#"
+          - text: Lihat semua jenis
+          - img [ref=e179]
+      - generic [ref=e181]:
+        - button "Semua" [ref=e182]:
+          - img [ref=e184]
+          - generic [ref=e189]: Semua
+        - button "Matic" [ref=e190]:
+          - img [ref=e192]
+          - generic [ref=e196]: Matic
+        - button "Sport" [ref=e197]:
+          - img [ref=e199]
+          - generic [ref=e203]: Sport
+        - button "Naked" [ref=e204]:
+          - img [ref=e206]
+          - generic [ref=e210]: Naked
+        - button "Trail" [ref=e211]:
+          - img [ref=e213]
+          - generic [ref=e217]: Trail
+        - button "Elektrik" [ref=e218]:
+          - img [ref=e220]
+          - generic [ref=e222]: Elektrik
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - heading "Rekomendasi Motor" [level=2] [ref=e225]
+        - link "Lihat semua motor" [ref=e226] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+          - text: Lihat semua motor
+          - img [ref=e227]
+      - generic [ref=e229]:
+        - article [ref=e230]:
+          - button "Favorit Honda Beat" [ref=e231]:
+            - img [ref=e232]
+          - img "Honda Beat" [ref=e235]
+          - heading "Honda Beat" [level=3] [ref=e236]
+          - generic [ref=e237]:
+            - img [ref=e238]
+            - generic [ref=e240]: "4.7"
+            - text: (80+ review)
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - img [ref=e243]
+              - text: 2 Helm
+            - generic [ref=e246]:
+              - img [ref=e247]
+              - text: 110 cc
+            - generic [ref=e249]:
+              - img [ref=e250]
+              - text: Matic
+          - generic [ref=e255]: Rp 55.000 /hari
+          - button "Lihat Detail" [ref=e256]
+        - article [ref=e257]:
+          - button "Favorit Honda Vario 125" [ref=e258]:
+            - img [ref=e259]
+          - img "Honda Vario 125" [ref=e262]
+          - heading "Honda Vario 125" [level=3] [ref=e263]
+          - generic [ref=e264]:
+            - img [ref=e265]
+            - generic [ref=e267]: "4.9"
+            - text: (120+ review)
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - img [ref=e270]
+              - text: 2 Helm
+            - generic [ref=e273]:
+              - img [ref=e274]
+              - text: 125 cc
+            - generic [ref=e276]:
+              - img [ref=e277]
+              - text: Matic
+          - generic [ref=e282]: Rp 70.000 /hari
+          - button "Lihat Detail" [ref=e283]
+        - article [ref=e284]:
+          - button "Favorit Yamaha Aerox 155" [ref=e285]:
+            - img [ref=e286]
+          - img "Yamaha Aerox 155" [ref=e289]
+          - heading "Yamaha Aerox 155" [level=3] [ref=e290]
+          - generic [ref=e291]:
+            - img [ref=e292]
+            - generic [ref=e294]: "4.8"
+            - text: (70+ review)
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - img [ref=e297]
+              - text: 2 Helm
+            - generic [ref=e300]:
+              - img [ref=e301]
+              - text: 155 cc
+            - generic [ref=e303]:
+              - img [ref=e304]
+              - text: Matic
+          - generic [ref=e309]: Rp 85.000 /hari
+          - button "Lihat Detail" [ref=e310]
+        - article [ref=e311]:
+          - button "Favorit Yamaha NMAX 155" [ref=e312]:
+            - img [ref=e313]
+          - img "Yamaha NMAX 155" [ref=e316]
+          - heading "Yamaha NMAX 155" [level=3] [ref=e317]
+          - generic [ref=e318]:
+            - img [ref=e319]
+            - generic [ref=e321]: "4.8"
+            - text: (95+ review)
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - img [ref=e324]
+              - text: 2 Helm
+            - generic [ref=e327]:
+              - img [ref=e328]
+              - text: 155 cc
+            - generic [ref=e330]:
+              - img [ref=e331]
+              - text: Matic
+          - generic [ref=e336]: Rp 90.000 /hari
+          - button "Lihat Detail" [ref=e337]
+        - article [ref=e338]:
+          - button "Favorit Kawasaki Z250" [ref=e339]:
+            - img [ref=e340]
+          - img "Kawasaki Z250" [ref=e343]
+          - heading "Kawasaki Z250" [level=3] [ref=e344]
+          - generic [ref=e345]:
+            - img [ref=e346]
+            - generic [ref=e348]: "4.9"
+            - text: (65+ review)
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - img [ref=e351]
+              - text: 2 Helm
+            - generic [ref=e354]:
+              - img [ref=e355]
+              - text: 250 cc
+            - generic [ref=e357]:
+              - img [ref=e358]
+              - text: Manual
+          - generic [ref=e363]: Rp 150.000 /hari
+          - button "Lihat Detail" [ref=e364]
+        - article [ref=e365]:
+          - button "Favorit Kawasaki KLX" [ref=e366]:
+            - img [ref=e367]
+          - img "Kawasaki KLX" [ref=e370]
+          - heading "Kawasaki KLX" [level=3] [ref=e371]
+          - generic [ref=e372]:
+            - img [ref=e373]
+            - generic [ref=e375]: "4.7"
+            - text: (44+ review)
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - img [ref=e378]
+              - text: 2 Helm
+            - generic [ref=e381]:
+              - img [ref=e382]
+              - text: 150 cc
+            - generic [ref=e384]:
+              - img [ref=e385]
+              - text: Manual
+          - generic [ref=e390]: Rp 130.000 /hari
+          - button "Lihat Detail" [ref=e391]
+        - article [ref=e392]:
+          - button "Favorit Vespa Sprint" [ref=e393]:
+            - img [ref=e394]
+          - img "Vespa Sprint" [ref=e397]
+          - heading "Vespa Sprint" [level=3] [ref=e398]
+          - generic [ref=e399]:
+            - img [ref=e400]
+            - generic [ref=e402]: "4.9"
+            - text: (45+ review)
+          - generic [ref=e403]:
+            - generic [ref=e404]:
+              - img [ref=e405]
+              - text: 2 Helm
+            - generic [ref=e408]:
+              - img [ref=e409]
+              - text: 150 cc
+            - generic [ref=e411]:
+              - img [ref=e412]
+              - text: Matic
+          - generic [ref=e417]: Rp 120.000 /hari
+          - button "Lihat Detail" [ref=e418]
+        - article [ref=e419]:
+          - button "Favorit Benelli Imperiale" [ref=e420]:
+            - img [ref=e421]
+          - img "Benelli Imperiale" [ref=e424]
+          - heading "Benelli Imperiale" [level=3] [ref=e425]
+          - generic [ref=e426]:
+            - img [ref=e427]
+            - generic [ref=e429]: "4.8"
+            - text: (38+ review)
+          - generic [ref=e430]:
+            - generic [ref=e431]:
+              - img [ref=e432]
+              - text: 2 Helm
+            - generic [ref=e435]:
+              - img [ref=e436]
+              - text: 374 cc
+            - generic [ref=e438]:
+              - img [ref=e439]
+              - text: Manual
+          - generic [ref=e444]: Rp 180.000 /hari
+          - button "Lihat Detail" [ref=e445]
+      - button "Lihat Semua Motor" [ref=e447]:
+        - text: Lihat Semua Motor
+        - img [ref=e448]
+    - generic [ref=e451]:
+      - generic [ref=e452]:
+        - heading "Cara Sewa di MotoRent" [level=2] [ref=e453]
+        - generic [ref=e454]:
+          - generic [ref=e455]:
+            - generic [ref=e456]: "1"
+            - img [ref=e458]
+            - heading "Pilih Lokasi & Tanggal" [level=4] [ref=e460]
+            - paragraph [ref=e461]: Tentukan lokasi dan tanggal sewa motor.
+          - generic [ref=e462]:
+            - generic [ref=e463]: "2"
+            - img [ref=e465]
+            - heading "Pilih Motor Favorit" [level=4] [ref=e469]
+            - paragraph [ref=e470]: Pilih motor yang sesuai kebutuhanmu.
+          - generic [ref=e471]:
+            - generic [ref=e472]: "3"
+            - img [ref=e474]
+            - heading "Konfirmasi & Jalan" [level=4] [ref=e478]
+            - paragraph [ref=e479]: Konfirmasi pesanan dan siap untuk berkendara!
+      - generic [ref=e480]:
+        - heading "Layanan Tambahan" [level=2] [ref=e481]
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - img [ref=e485]
+            - heading "Helm Premium" [level=4] [ref=e488]
+            - paragraph [ref=e489]: Bersih & nyaman
+          - generic [ref=e490]:
+            - img [ref=e492]
+            - heading "Jaket Riding" [level=4] [ref=e494]
+            - paragraph [ref=e495]: Aman & stylish
+          - generic [ref=e496]:
+            - img [ref=e498]
+            - heading "Box Motor" [level=4] [ref=e501]
+            - paragraph [ref=e502]: Praktis & aman
+          - generic [ref=e503]:
+            - img [ref=e505]
+            - heading "Antar Jemput" [level=4] [ref=e510]
+            - paragraph [ref=e511]: Gratis antar motor
+      - generic [ref=e512]:
+        - generic [ref=e513]:
+          - heading "Mulai Perjalananmu Bersama MotoRent" [level=3] [ref=e514]:
+            - text: Mulai Perjalananmu
+            - text: Bersama MotoRent
+          - paragraph [ref=e515]:
+            - text: Sewa motor sekarang dan nikmati
+            - text: perjalanan yang bebas & menyenangkan.
+          - link "Cari Motor Sekarang" [ref=e516] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/cari-motor
+            - text: Cari Motor Sekarang
+            - img [ref=e517]
+        - img "Scooter hero" [ref=e519]
+    - region "Statistik MotoRent" [ref=e520]:
+      - generic [ref=e521]:
+        - generic [ref=e522]:
+          - img [ref=e524]
+          - strong [ref=e529]: 10.000+
+          - generic [ref=e530]: Pelanggan Puas
+        - generic [ref=e531]:
+          - img [ref=e533]
+          - strong [ref=e537]: 5.000+
+          - generic [ref=e538]: Motor Tersedia
+        - generic [ref=e539]:
+          - img [ref=e541]
+          - strong [ref=e544]: 50+
+          - generic [ref=e545]: Kota di Indonesia
+        - generic [ref=e546]:
+          - img [ref=e548]
+          - strong [ref=e550]: 4.8/5
+          - generic [ref=e551]: Rating Pengguna
+  - status

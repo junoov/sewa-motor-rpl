@@ -1,0 +1,136 @@
+- main [ref=e2]:
+  - region "Detail motor Honda Vario 125" [ref=e3]:
+    - generic [ref=e4]:
+      - article [ref=e5]:
+        - generic [ref=e6]: 1 / 5
+        - generic [ref=e7]:
+          - link "Kembali ke daftar motor" [ref=e8] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/cari-motor
+            - img [ref=e9]
+          - generic [ref=e11]: Detail Motor
+          - generic [ref=e12]:
+            - button "Bagikan" [ref=e13] [cursor=pointer]:
+              - img [ref=e14]
+            - link "Login untuk simpan favorit" [ref=e18] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/login
+              - img [ref=e19]
+        - generic [ref=e21]:
+          - button "Gambar sebelumnya" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+          - img "Honda Vario 125 tampak depan" [ref=e25]
+          - button "Gambar berikutnya" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+        - generic "Galeri Honda Vario 125" [ref=e29]:
+          - button "Honda Vario 125 tampak depan" [ref=e30] [cursor=pointer]:
+            - img "Honda Vario 125 tampak depan" [ref=e31]
+          - button "Honda Vario 125 body samping" [ref=e32] [cursor=pointer]:
+            - img "Honda Vario 125 body samping" [ref=e33]
+          - button "Honda Vario 125 tampak belakang" [ref=e34] [cursor=pointer]:
+            - img "Honda Vario 125 tampak belakang" [ref=e35]
+          - button "Honda Vario 125 tampak katalog" [ref=e36] [cursor=pointer]:
+            - img "Honda Vario 125 tampak katalog" [ref=e37]
+          - button "Detail spion dan headlamp Honda Vario 125" [ref=e38] [cursor=pointer]:
+            - img "Detail spion dan headlamp Honda Vario 125" [ref=e39]
+      - complementary [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Honda Vario 125" [level=1] [ref=e42]
+          - link "Login untuk simpan favorit" [ref=e43] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+            - img [ref=e44]
+        - generic [ref=e47]:
+          - img [ref=e48]
+          - text: 4.9 (120+ review)
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - text: 2 Helm
+          - generic [ref=e56]:
+            - img [ref=e57]
+            - text: 125 cc
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - text: Matic
+    - region "Informasi lengkap Honda Vario 125" [ref=e65]:
+      - article [ref=e66]:
+        - heading "Deskripsi" [level=2] [ref=e67]
+        - paragraph [ref=e68]: Honda Vario 125 adalah skutik matic 125 cc yang irit, responsif, dan nyaman untuk perjalanan harian. Mesin eSP berpendingin cairan dengan sistem injeksi PGM-FI membuat performanya halus, efisien, dan cocok dipakai di jalan kota maupun rute jarak menengah.
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - heading "Spesifikasi" [level=2] [ref=e71]
+          - button "Lihat semua" [ref=e72] [cursor=pointer]
+        - generic "Spesifikasi ringkas Honda Vario 125" [ref=e73]:
+          - article [ref=e74]:
+            - img [ref=e75]
+            - generic [ref=e77]:
+              - text: Tahun
+              - strong [ref=e78]: "2024"
+          - article [ref=e79]:
+            - img [ref=e80]
+            - generic [ref=e85]:
+              - text: Kapasitas
+              - strong [ref=e86]: 2 Orang
+          - article [ref=e87]:
+            - img [ref=e88]
+            - generic [ref=e91]:
+              - text: Bahan Bakar
+              - strong [ref=e92]: Bensin
+          - article [ref=e93]:
+            - img [ref=e94]
+            - generic [ref=e98]:
+              - text: Bagasi
+              - strong [ref=e99]: 18 Liter
+    - generic [ref=e100]:
+      - heading "Ketersediaan Motor" [level=2] [ref=e101]
+      - paragraph [ref=e102]: Tanggal berwarna merah menandakan motor sedang disewa. Tanggal hijau tersedia untuk booking.
+      - generic [ref=e104]:
+        - generic [ref=e105]: Mei 2026
+        - generic [ref=e106]:
+          - generic [ref=e107]: Min
+          - generic [ref=e108]: Sen
+          - generic [ref=e109]: Sel
+          - generic [ref=e110]: Rab
+          - generic [ref=e111]: Kam
+          - generic [ref=e112]: Jum
+          - generic [ref=e113]: Sab
+          - generic [ref=e119]: "1"
+          - generic [ref=e120]: "2"
+          - generic [ref=e121]: "3"
+          - generic [ref=e122]: "4"
+          - generic [ref=e123]: "5"
+          - generic [ref=e124]: "6"
+          - generic [ref=e125]: "7"
+          - generic [ref=e126]: "8"
+          - generic [ref=e127]: "9"
+          - generic [ref=e128]: "10"
+          - generic [ref=e129]: "11"
+          - generic [ref=e130]: "12"
+          - generic [ref=e131]: "13"
+          - generic [ref=e132]: "14"
+          - generic [ref=e133]: "15"
+          - generic [ref=e134]: "16"
+          - generic [ref=e135]: "17"
+          - generic [ref=e136]: "18"
+          - generic [ref=e137]: "19"
+          - generic [ref=e138]: "20"
+          - generic [ref=e139]: "21"
+          - generic [ref=e140]: "22"
+          - generic [ref=e141]: "23"
+          - generic [ref=e142]: "24"
+          - generic [ref=e143]: "25"
+          - generic [ref=e144]: "26"
+          - generic [ref=e145]: "27"
+          - generic [ref=e146]: "28"
+          - generic [ref=e147]: "29"
+          - generic [ref=e148]: "30"
+          - generic [ref=e149]: "31"
+      - generic [ref=e150]:
+        - generic [ref=e151]: Tersedia
+        - generic [ref=e153]: Tidak Tersedia
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: Harga Sewa
+        - generic [ref=e158]:
+          - generic [ref=e159]: Rp 70.000
+          - generic [ref=e160]: /hari
+      - link "Booking Sekarang" [ref=e161] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/bookings/create/honda-vario-125

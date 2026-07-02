@@ -1,0 +1,94 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Beranda" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+      - link "MotoRent" [ref=e7] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e8]
+        - generic [ref=e13]: MotoRent
+      - link "Akun Saya" [ref=e14] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account
+        - img [ref=e15]
+    - generic [ref=e18]:
+      - heading "Akun Saya" [level=2] [ref=e19]
+      - paragraph [ref=e20]: Kelola informasi akun dan keamanan Anda
+    - navigation "Navigasi akun" [ref=e21]:
+      - button "Profil Saya" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e26]: Profil Saya
+      - button "Ringkasan Aktivitas" [active] [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e29]: Ringkasan Aktivitas
+      - button "Verifikasi" [ref=e30] [cursor=pointer]:
+        - img [ref=e31]
+        - generic [ref=e34]: Verifikasi
+    - article [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Ringkasan Aktivitas" [level=2] [ref=e81]
+          - paragraph [ref=e82]: Semua aktivitas pemesananmu ditampilkan di sini, termasuk transaksi yang masih menunggu pembayaran.
+        - generic [ref=e83]: Semua booking
+      - generic [ref=e84]:
+        - article [ref=e85]:
+          - generic [ref=e86]: Total pemesanan
+          - strong [ref=e87]: "6"
+        - article [ref=e88]:
+          - generic [ref=e89]: Menunggu pembayaran
+          - strong [ref=e90]: "5"
+        - article [ref=e91]:
+          - generic [ref=e92]: Booking aktif
+          - strong [ref=e93]: "6"
+        - article [ref=e94]:
+          - generic [ref=e95]: Total transaksi
+          - strong [ref=e96]: Rp 2.720.000
+      - generic [ref=e97]:
+        - link "Honda Vario 125 MR-20260429-NO8BC · 30 Apr 2026 - 08 May 2026 Rp 570.000 dibatalkan" [ref=e98] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-NO8BC?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e99]:
+            - strong [ref=e100]: Honda Vario 125
+            - generic [ref=e101]: MR-20260429-NO8BC · 30 Apr 2026 - 08 May 2026
+          - generic [ref=e102]:
+            - generic [ref=e103]: Rp 570.000
+            - generic [ref=e104]: dibatalkan
+        - link "Honda Vario 125 MR-20260429-9NCMB · 30 Apr 2026 - 05 May 2026 Rp 360.000 menunggu pembayaran" [ref=e105] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-9NCMB?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e106]:
+            - strong [ref=e107]: Honda Vario 125
+            - generic [ref=e108]: MR-20260429-9NCMB · 30 Apr 2026 - 05 May 2026
+          - generic [ref=e109]:
+            - generic [ref=e110]: Rp 360.000
+            - generic [ref=e111]: menunggu pembayaran
+        - link "Honda Vario 125 MR-20260429-IRFKE · 30 Apr 2026 - 19 May 2026 Rp 1.340.000 menunggu pembayaran" [ref=e112] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-IRFKE?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e113]:
+            - strong [ref=e114]: Honda Vario 125
+            - generic [ref=e115]: MR-20260429-IRFKE · 30 Apr 2026 - 19 May 2026
+          - generic [ref=e116]:
+            - generic [ref=e117]: Rp 1.340.000
+            - generic [ref=e118]: menunggu pembayaran
+        - link "Honda Vario 125 MR-20260429-NRJGL · 30 Apr 2026 - 02 May 2026 Rp 150.000 menunggu pembayaran" [ref=e119] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-NRJGL?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e120]:
+            - strong [ref=e121]: Honda Vario 125
+            - generic [ref=e122]: MR-20260429-NRJGL · 30 Apr 2026 - 02 May 2026
+          - generic [ref=e123]:
+            - generic [ref=e124]: Rp 150.000
+            - generic [ref=e125]: menunggu pembayaran
+        - link "Honda Vario 125 MR-20260429-WKU8C · 30 Apr 2026 - 02 May 2026 Rp 150.000 menunggu pembayaran" [ref=e126] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-WKU8C?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e127]:
+            - strong [ref=e128]: Honda Vario 125
+            - generic [ref=e129]: MR-20260429-WKU8C · 30 Apr 2026 - 02 May 2026
+          - generic [ref=e130]:
+            - generic [ref=e131]: Rp 150.000
+            - generic [ref=e132]: menunggu pembayaran
+        - link "Honda Vario 125 MR-20260429-A5M2X · 30 Apr 2026 - 02 May 2026 Rp 150.000 menunggu pembayaran" [ref=e133] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260429-A5M2X?return_to=http%3A%2F%2F127.0.0.1%3A8000%2Faccount%23account-activity
+          - generic [ref=e134]:
+            - strong [ref=e135]: Honda Vario 125
+            - generic [ref=e136]: MR-20260429-A5M2X · 30 Apr 2026 - 02 May 2026
+          - generic [ref=e137]:
+            - generic [ref=e138]: Rp 150.000
+            - generic [ref=e139]: menunggu pembayaran

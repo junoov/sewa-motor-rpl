@@ -1,0 +1,330 @@
+:root {
+  --shell-max-width: 1680px;
+  --shell-gutter: 72px;
+  --shell-gutter-mobile: 32px;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+@media (min-width: 1280px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
+.motorrent-header {
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  width: 100%;
+  border-bottom: 1px solid #e8edf6;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.04);
+  backdrop-filter: blur(18px);
+}
+
+.motorrent-header__inner {
+  position: relative;
+  width: min(calc(100% - clamp(32px, 4vw, var(--shell-gutter))), var(--shell-max-width));
+  height: 72px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.motorrent-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 230px;
+  flex: 0 1 230px;
+  color: #111827;
+}
+
+.motorrent-header__logo {
+  width: 52px;
+  height: 44px;
+  flex: 0 0 auto;
+  color: #075cff;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.motorrent-header__brand-text {
+  display: grid;
+  min-width: 0;
+  line-height: 1;
+}
+
+.motorrent-header__name {
+  color: #111827;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.4px;
+}
+
+.motorrent-header__tagline {
+  margin-top: 4px;
+  color: #657085;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.1px;
+}
+
+.motorrent-header__nav {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: clamp(28px, 2.5vw, 48px);
+  flex: 1 1 auto;
+  color: #657085;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.motorrent-header__nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: #657085;
+  transition: color 0.2s ease;
+}
+
+.motorrent-header__nav-link:hover,
+.motorrent-header__nav-link.is-active {
+  color: #075cff;
+}
+
+.motorrent-header__nav-link.is-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 72px;
+  height: 3px;
+  border-radius: 999px 999px 0 0;
+  background: #075cff;
+  transform: translateX(-50%);
+}
+
+.motorrent-header__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(18px, 2vw, 30px);
+  min-width: 230px;
+  flex: 0 1 230px;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+@media (max-width: 1180px) {
+  .motorrent-header__nav {
+    gap: 32px;
+    font-size: 13px;
+  }
+
+  .motorrent-header__actions {
+    gap: 18px;
+    min-width: 200px;
+  }
+
+  .motorrent-header__brand {
+    min-width: 210px;
+  }
+}
+
+.motorrent-header__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #111827;
+  transition: color 0.2s ease;
+}
+
+.motorrent-header__action:hover {
+  color: #075cff;
+}
+
+.motorrent-header__icon {
+  width: 20px;
+  height: 20px;
+  color: currentColor;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.motorrent-header__chevron {
+  width: 14px;
+  height: 14px;
+  color: #657085;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.motorrent-header__menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #e1e8f3;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #111827;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
+  cursor: pointer;
+}
+
+.motorrent-header__icon--close {
+  display: none;
+}
+
+.motorrent-header.is-mobile-menu-open .motorrent-header__icon--menu {
+  display: none;
+}
+
+.motorrent-header.is-mobile-menu-open .motorrent-header__icon--close {
+  display: block;
+}
+
+.motorrent-header__mobile-panel {
+  display: none;
+}
+
+.motorrent-header.is-mobile-menu-open {
+  z-index: 1000;
+}
+
+@media (max-width: 900px) {
+  .motorrent-header__inner {
+    width: 100%;
+    min-height: 64px;
+    height: auto;
+    padding: 16px 16px;
+    margin-inline: 0;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .motorrent-header__brand {
+    min-width: 0;
+    flex: 1 1 auto;
+    padding-bottom: 0;
+    transform: none;
+  }
+
+  .motorrent-header__logo {
+    width: 44px;
+    height: 38px;
+  }
+
+  .motorrent-header__name {
+    font-size: 19px;
+  }
+
+  .motorrent-header__tagline,
+  .motorrent-header__nav,
+  .motorrent-header__actions {
+    display: none;
+  }
+
+  .motorrent-header__menu {
+    display: inline-flex;
+    order: -1;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .motorrent-header__mobile-panel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    width: min(292px, calc(100vw - 48px));
+    height: 100dvh;
+    display: block;
+    padding: 14px;
+    border: 1px solid #e1e8f3;
+    border-left: 0;
+    border-radius: 0 24px 24px 0;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 18px 0 42px rgba(15, 23, 42, 0.13);
+    overflow-y: auto;
+    transform: translateX(0);
+  }
+
+  .motorrent-header__mobile-panel[hidden] {
+    display: none;
+  }
+
+  .motorrent-header__mobile-nav {
+    display: grid;
+    gap: 4px;
+  }
+
+  .motorrent-header__mobile-panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 44px;
+    margin-bottom: 4px;
+    padding-left: 14px;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+  }
+
+  .motorrent-header__mobile-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e1e8f3;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #111827;
+    cursor: pointer;
+  }
+
+  .motorrent-header__mobile-link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 14px;
+    border-radius: 14px;
+    color: #202938;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .motorrent-header__mobile-link:hover,
+  .motorrent-header__mobile-link.is-active {
+    color: #075cff;
+    background: #eef5ff;
+  }
+}

@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MotoRent" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e5]
+        - generic [ref=e10]:
+          - generic [ref=e11]: MotoRent
+          - generic [ref=e12]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e13]:
+        - link "Beranda" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/motors
+        - link "Cara Sewa" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e18]:
+        - link "Favorit" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/motors#popular
+          - img [ref=e20]
+          - text: Favorit
+        - link "Akun" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings
+          - img [ref=e23]
+          - text: Akun
+          - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - link "Kembali ke detail motor" [ref=e31] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/motors/honda-beat
+          - img [ref=e32]
+        - generic [ref=e34]:
+          - heading "Booking Motor" [level=1] [ref=e35]
+          - paragraph [ref=e36]: Lengkapi detail pemesanan dan lanjutkan pembayaran
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - article [ref=e39]:
+            - img "Honda Beat" [ref=e40]
+            - generic [ref=e41]:
+              - heading "Honda Beat" [level=2] [ref=e42]
+              - generic [ref=e43]:
+                - img [ref=e44]
+                - text: 4.7 (80+ review)
+              - generic [ref=e46]:
+                - generic [ref=e47]:
+                  - img [ref=e48]
+                  - text: 2 Helm
+                - generic [ref=e52]:
+                  - img [ref=e53]
+                  - text: 110 cc
+                - generic [ref=e55]:
+                  - img [ref=e56]
+                  - text: Matic
+            - generic [ref=e59]:
+              - strong [ref=e60]: Rp 55.000
+              - generic [ref=e61]: /hari
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e67]:
+              - generic [ref=e68]: Lokasi Pengambilan
+              - generic [ref=e69]:
+                - img [ref=e70]
+                - combobox "Lokasi Pengambilan" [ref=e73]:
+                  - option "Pilih lokasi pengambilan" [disabled]
+                  - option "MotoRent Bali - Bali"
+                  - option "MotoRent Jakarta Pusat - Jakarta" [selected]
+                  - option "MotoRent Yogyakarta - Yogyakarta"
+          - generic [ref=e74]:
+            - img [ref=e76]
+            - generic [ref=e78]:
+              - generic [ref=e79]: Tanggal Mulai
+              - generic [ref=e80]:
+                - img [ref=e81]
+                - textbox "Tanggal Mulai" [ref=e83]: 2026-05-14
+          - generic [ref=e84]:
+            - img [ref=e86]
+            - generic [ref=e88]:
+              - generic [ref=e89]: Tanggal Selesai
+              - generic [ref=e90]:
+                - img [ref=e91]
+                - textbox "Tanggal Selesai" [ref=e93]: 2026-05-16
+          - generic [ref=e94]:
+            - checkbox "Pemesanan aman & terpercaya Data dan transaksi Anda dilindungi dengan enkripsi tingkat tinggi." [checked]
+            - img [ref=e96]
+            - generic [ref=e99]: Pemesanan aman & terpercaya
+            - generic [ref=e100]: Data dan transaksi Anda dilindungi dengan enkripsi tingkat tinggi.
+        - complementary [ref=e101]:
+          - article [ref=e102]:
+            - heading "Ringkasan Pembayaran" [level=2] [ref=e103]
+            - generic [ref=e104]:
+              - generic [ref=e105]: Harga Sewa (2 hari)
+              - generic [ref=e106]: Rp 110.000
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - text: Biaya Layanan
+                - img [ref=e109]
+              - generic [ref=e111]: Rp 10.000
+            - generic [ref=e112]:
+              - strong [ref=e113]: Total Pembayaran
+              - generic [ref=e114]: Rp 120.000
+            - button "Lanjutkan Pembayaran" [ref=e115] [cursor=pointer]
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - generic [ref=e120]:
+                - generic [ref=e121]: Pembayaran 100% aman
+                - generic [ref=e122]: Kami tidak menyimpan detail kartu Anda.
+          - article [ref=e123]:
+            - img [ref=e125]
+            - generic [ref=e128]:
+              - text: Sewa fleksibel
+              - paragraph [ref=e129]: Ubah atau batalkan pesanan hingga 24 jam sebelum waktu mulai sewa.
+              - link "Lihat Syarat & Ketentuan" [ref=e130] [cursor=pointer]:
+                - /url: "#"

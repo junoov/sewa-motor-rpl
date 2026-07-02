@@ -1,0 +1,85 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kembali" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account#account-activity
+        - img [ref=e6]
+      - generic [ref=e8]: Pembayaran
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e11]
+        - generic [ref=e14]:
+          - generic [ref=e15]: Batas pembayaran
+          - generic [ref=e16]: 01:58:29
+      - generic [ref=e17]:
+        - img [ref=e18]
+        - generic [ref=e20]:
+          - generic [ref=e21]: Batas akhir pembayaran
+          - generic [ref=e22]: 14 Mei 2026 20:36 WIB
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - article [ref=e25]:
+          - heading "Ringkasan Pesanan" [level=2] [ref=e26]
+          - generic [ref=e27]:
+            - img "Kawasaki Z250" [ref=e28]
+            - generic [ref=e29]:
+              - heading "Kawasaki Z250" [level=3] [ref=e30]
+              - generic [ref=e32]:
+                - img [ref=e33]
+                - text: 15 Mei 2026 – 17 Mei 2026 (2 Hari)
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - text: Jl. Sudirman No. 10, Jakarta
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - text: "Kode Booking: MR-20260514-8FAJJ"
+          - generic [ref=e43]:
+            - generic [ref=e44]: Total
+            - strong [ref=e45]: Rp 310.000
+        - article [ref=e46]:
+          - heading "Informasi Transfer" [level=2] [ref=e47]
+          - generic [ref=e48]:
+            - generic [ref=e49]: GoPay
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: Nomor Rekening
+                - generic [ref=e53]: 0812 3456 7890
+              - generic [ref=e54]:
+                - generic [ref=e55]: Atas Nama
+                - generic [ref=e56]: PT MotoRent Indonesia
+              - generic [ref=e57]:
+                - generic [ref=e58]: Total Transfer
+                - generic [ref=e59]: Rp 310.000
+        - article [ref=e60]:
+          - heading "Langkah Pembayaran" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]: Buka aplikasi Gojek.
+            - listitem [ref=e64]: Pilih menu GoPay dan tap "Kirim".
+            - listitem [ref=e65]: Masukkan nomor 0812 3456 7890.
+            - listitem [ref=e66]: Masukkan nominal sesuai total.
+            - listitem [ref=e67]: Konfirmasi pembayaran.
+      - article [ref=e69]:
+        - heading "Ringkasan Pembayaran" [level=2] [ref=e70]
+        - generic [ref=e71]:
+          - generic [ref=e72]: Total Pembayaran
+          - strong [ref=e73]: Rp 310.000
+        - generic [ref=e74]:
+          - generic [ref=e75]: Status Pembayaran
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - text: Menunggu pembayaran
+        - generic [ref=e80]:
+          - generic [ref=e81]: Batas pembayaran
+          - generic [ref=e82]:
+            - img [ref=e83]
+            - generic [ref=e86]: 01:58:29
+          - generic [ref=e87]:
+            - img [ref=e88]
+            - generic [ref=e90]: 14 Mei 2026 20:36 WIB
+        - link "Konfirmasi Pembayaran" [ref=e91] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260514-8FAJJ/konfirmasi
+          - text: Konfirmasi Pembayaran
+          - img [ref=e92]
+        - button "Batalkan Pesanan" [ref=e95] [cursor=pointer]
+        - link "Lihat Invoice" [ref=e96] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/bookings/MR-20260514-8FAJJ/invoice

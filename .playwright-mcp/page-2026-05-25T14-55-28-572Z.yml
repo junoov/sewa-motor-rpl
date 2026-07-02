@@ -1,0 +1,588 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - button "Perluas menu" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - button "Menu pengguna" [ref=e10] [cursor=pointer]:
+      - img "Avatar Admin MotoRent" [ref=e11]
+  - generic [ref=e12]:
+    - complementary [ref=e13]:
+      - link "MotoRent" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - generic [ref=e18]: MotoRent
+      - navigation [ref=e19]:
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Dasbor" [ref=e24] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin
+                  - img [ref=e25]
+                  - generic [ref=e27]: Dasbor
+              - listitem [ref=e28]:
+                - link "Booking" [ref=e29] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/bookings
+                  - img [ref=e30]
+                  - generic [ref=e32]: Booking
+              - listitem [ref=e33]:
+                - link "Brand" [ref=e34] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/brands
+                  - img [ref=e35]
+                  - generic [ref=e37]: Brand
+              - listitem [ref=e38]:
+                - link "Location" [ref=e39] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/locations
+                  - img [ref=e40]
+                  - generic [ref=e42]: Location
+              - listitem [ref=e43]:
+                - link "Motor Type" [ref=e44] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/motor-types
+                  - img [ref=e45]
+                  - generic [ref=e47]: Motor Type
+              - listitem [ref=e48]:
+                - link "Motor" [ref=e49] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/motors
+                  - img [ref=e50]
+                  - generic [ref=e52]: Motor
+              - listitem [ref=e53]:
+                - link "Payment" [ref=e54] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/payments
+                  - img [ref=e55]
+                  - generic [ref=e57]: Payment
+              - listitem [ref=e58]:
+                - link "User" [ref=e59] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/users
+                  - img [ref=e60]
+                  - generic [ref=e62]: User
+              - listitem [ref=e63]:
+                - link "Wishlist" [ref=e64] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/wishlists
+                  - img [ref=e65]
+                  - generic [ref=e67]: Wishlist
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - navigation [ref=e74]:
+              - list [ref=e75]:
+                - listitem [ref=e76]:
+                  - link "Motor" [ref=e77] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors
+                - listitem [ref=e78]:
+                  - img [ref=e79]
+                  - generic [ref=e81]: Daftar
+            - heading "Motor" [level=1] [ref=e82]
+          - link "Buat motor" [ref=e85] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin/motors/create
+        - generic [ref=e93]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: Cari
+              - generic [ref=e99]:
+                - img [ref=e101]
+                - searchbox "Cari" [ref=e104]
+            - button "Filter" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - generic [ref=e111]: "0"
+            - button "Pilih kolom" [ref=e114] [cursor=pointer]:
+              - img [ref=e115]
+          - table [ref=e118]:
+            - rowgroup [ref=e119]:
+              - row "Buat/batalkan pilihan semua item untuk tindakan massal. Foto Motor Brand Tipe Lokasi Tahun CC Transmisi Harga / Hari Rating Status Populer Aksi" [ref=e120]:
+                - columnheader "Buat/batalkan pilihan semua item untuk tindakan massal." [ref=e121]:
+                  - checkbox "Buat/batalkan pilihan semua item untuk tindakan massal." [ref=e122]
+                - columnheader "Foto" [ref=e123]
+                - columnheader "Motor" [ref=e124]:
+                  - button "Motor" [ref=e125] [cursor=pointer]:
+                    - text: Motor
+                    - img [ref=e126]
+                - columnheader "Brand" [ref=e128]:
+                  - button "Brand" [ref=e129] [cursor=pointer]:
+                    - text: Brand
+                    - img [ref=e130]
+                - columnheader "Tipe" [ref=e132]:
+                  - button "Tipe" [ref=e133] [cursor=pointer]:
+                    - text: Tipe
+                    - img [ref=e134]
+                - columnheader "Lokasi" [ref=e136]:
+                  - button "Lokasi" [ref=e137] [cursor=pointer]:
+                    - text: Lokasi
+                    - img [ref=e138]
+                - columnheader "Tahun" [ref=e140]:
+                  - button "Tahun" [ref=e141] [cursor=pointer]:
+                    - text: Tahun
+                    - img [ref=e142]
+                - columnheader "CC" [ref=e144]:
+                  - button "CC" [ref=e145] [cursor=pointer]:
+                    - text: CC
+                    - img [ref=e146]
+                - columnheader "Transmisi" [ref=e148]
+                - columnheader "Harga / Hari" [ref=e149]:
+                  - button "Harga / Hari" [ref=e150] [cursor=pointer]:
+                    - text: Harga / Hari
+                    - img [ref=e151]
+                - columnheader "Rating" [ref=e153]:
+                  - button "Rating" [ref=e154] [cursor=pointer]:
+                    - text: Rating
+                    - img [ref=e155]
+                - columnheader "Status" [ref=e157]
+                - columnheader "Populer" [ref=e158]
+                - columnheader "Aksi" [ref=e159]
+            - rowgroup [ref=e160]:
+              - row "Buat/batalkan pilihan item 25 untuk tindakan massal. Honda Beat Honda Matic MotoRent Jakarta Pusat 2023 110 cc Matic Rp 55.000 4.7 tersedia Ubah" [ref=e161]:
+                - cell "Buat/batalkan pilihan item 25 untuk tindakan massal." [ref=e162]:
+                  - checkbox "Buat/batalkan pilihan item 25 untuk tindakan massal." [ref=e163]
+                - cell [ref=e164]:
+                  - link [ref=e165] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - img [ref=e167]
+                - cell "Honda Beat" [ref=e168]:
+                  - link "Honda Beat" [ref=e169] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e170]: Honda Beat
+                - cell "Honda" [ref=e171]:
+                  - link "Honda" [ref=e172] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e173]: Honda
+                - cell "Matic" [ref=e174]:
+                  - link "Matic" [ref=e175] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e176]: Matic
+                - cell "MotoRent Jakarta Pusat" [ref=e177]:
+                  - link "MotoRent Jakarta Pusat" [ref=e178] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e179]: MotoRent Jakarta Pusat
+                - cell "2023" [ref=e180]:
+                  - link "2023" [ref=e181] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e182]: "2023"
+                - cell "110 cc" [ref=e183]:
+                  - link "110 cc" [ref=e184] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e185]: 110 cc
+                - cell "Matic" [ref=e186]:
+                  - link "Matic" [ref=e187] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e189]: Matic
+                - cell "Rp 55.000" [ref=e190]:
+                  - link "Rp 55.000" [ref=e191] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e192]: Rp 55.000
+                - cell "4.7" [ref=e193]:
+                  - link "4.7" [ref=e194] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e195]: "4.7"
+                - cell "tersedia" [ref=e196]:
+                  - link "tersedia" [ref=e197] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - generic [ref=e199]: tersedia
+                - cell [ref=e200]:
+                  - link [ref=e201] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - img [ref=e203]
+                - cell "Ubah" [ref=e205]:
+                  - link "Ubah" [ref=e207] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-beat/edit
+                    - img [ref=e208]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 26 untuk tindakan massal. Honda Vario 125 Honda Matic MotoRent Jakarta Pusat 2024 125 cc Matic Rp 70.000 4.9 tersedia Ubah" [ref=e211]:
+                - cell "Buat/batalkan pilihan item 26 untuk tindakan massal." [ref=e212]:
+                  - checkbox "Buat/batalkan pilihan item 26 untuk tindakan massal." [ref=e213]
+                - cell [ref=e214]:
+                  - link [ref=e215] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - img [ref=e217]
+                - cell "Honda Vario 125" [ref=e218]:
+                  - link "Honda Vario 125" [ref=e219] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e220]: Honda Vario 125
+                - cell "Honda" [ref=e221]:
+                  - link "Honda" [ref=e222] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e223]: Honda
+                - cell "Matic" [ref=e224]:
+                  - link "Matic" [ref=e225] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e226]: Matic
+                - cell "MotoRent Jakarta Pusat" [ref=e227]:
+                  - link "MotoRent Jakarta Pusat" [ref=e228] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e229]: MotoRent Jakarta Pusat
+                - cell "2024" [ref=e230]:
+                  - link "2024" [ref=e231] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e232]: "2024"
+                - cell "125 cc" [ref=e233]:
+                  - link "125 cc" [ref=e234] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e235]: 125 cc
+                - cell "Matic" [ref=e236]:
+                  - link "Matic" [ref=e237] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e239]: Matic
+                - cell "Rp 70.000" [ref=e240]:
+                  - link "Rp 70.000" [ref=e241] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e242]: Rp 70.000
+                - cell "4.9" [ref=e243]:
+                  - link "4.9" [ref=e244] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e245]: "4.9"
+                - cell "tersedia" [ref=e246]:
+                  - link "tersedia" [ref=e247] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - generic [ref=e249]: tersedia
+                - cell [ref=e250]:
+                  - link [ref=e251] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - img [ref=e253]
+                - cell "Ubah" [ref=e255]:
+                  - link "Ubah" [ref=e257] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/honda-vario-125/edit
+                    - img [ref=e258]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 27 untuk tindakan massal. Yamaha Aerox 155 Yamaha Matic MotoRent Yogyakarta 2023 155 cc Matic Rp 85.000 4.8 tersedia Ubah" [ref=e261]:
+                - cell "Buat/batalkan pilihan item 27 untuk tindakan massal." [ref=e262]:
+                  - checkbox "Buat/batalkan pilihan item 27 untuk tindakan massal." [ref=e263]
+                - cell [ref=e264]:
+                  - link [ref=e265] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - img [ref=e267]
+                - cell "Yamaha Aerox 155" [ref=e268]:
+                  - link "Yamaha Aerox 155" [ref=e269] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e270]: Yamaha Aerox 155
+                - cell "Yamaha" [ref=e271]:
+                  - link "Yamaha" [ref=e272] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e273]: Yamaha
+                - cell "Matic" [ref=e274]:
+                  - link "Matic" [ref=e275] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e276]: Matic
+                - cell "MotoRent Yogyakarta" [ref=e277]:
+                  - link "MotoRent Yogyakarta" [ref=e278] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e279]: MotoRent Yogyakarta
+                - cell "2023" [ref=e280]:
+                  - link "2023" [ref=e281] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e282]: "2023"
+                - cell "155 cc" [ref=e283]:
+                  - link "155 cc" [ref=e284] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e285]: 155 cc
+                - cell "Matic" [ref=e286]:
+                  - link "Matic" [ref=e287] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e289]: Matic
+                - cell "Rp 85.000" [ref=e290]:
+                  - link "Rp 85.000" [ref=e291] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e292]: Rp 85.000
+                - cell "4.8" [ref=e293]:
+                  - link "4.8" [ref=e294] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e295]: "4.8"
+                - cell "tersedia" [ref=e296]:
+                  - link "tersedia" [ref=e297] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - generic [ref=e299]: tersedia
+                - cell [ref=e300]:
+                  - link [ref=e301] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - img [ref=e303]
+                - cell "Ubah" [ref=e305]:
+                  - link "Ubah" [ref=e307] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-aerox-155/edit
+                    - img [ref=e308]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 28 untuk tindakan massal. Yamaha NMAX 155 Yamaha Matic MotoRent Bali 2024 155 cc Matic Rp 90.000 4.8 tersedia Ubah" [ref=e311]:
+                - cell "Buat/batalkan pilihan item 28 untuk tindakan massal." [ref=e312]:
+                  - checkbox "Buat/batalkan pilihan item 28 untuk tindakan massal." [ref=e313]
+                - cell [ref=e314]:
+                  - link [ref=e315] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - img [ref=e317]
+                - cell "Yamaha NMAX 155" [ref=e318]:
+                  - link "Yamaha NMAX 155" [ref=e319] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e320]: Yamaha NMAX 155
+                - cell "Yamaha" [ref=e321]:
+                  - link "Yamaha" [ref=e322] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e323]: Yamaha
+                - cell "Matic" [ref=e324]:
+                  - link "Matic" [ref=e325] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e326]: Matic
+                - cell "MotoRent Bali" [ref=e327]:
+                  - link "MotoRent Bali" [ref=e328] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e329]: MotoRent Bali
+                - cell "2024" [ref=e330]:
+                  - link "2024" [ref=e331] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e332]: "2024"
+                - cell "155 cc" [ref=e333]:
+                  - link "155 cc" [ref=e334] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e335]: 155 cc
+                - cell "Matic" [ref=e336]:
+                  - link "Matic" [ref=e337] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e339]: Matic
+                - cell "Rp 90.000" [ref=e340]:
+                  - link "Rp 90.000" [ref=e341] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e342]: Rp 90.000
+                - cell "4.8" [ref=e343]:
+                  - link "4.8" [ref=e344] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e345]: "4.8"
+                - cell "tersedia" [ref=e346]:
+                  - link "tersedia" [ref=e347] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - generic [ref=e349]: tersedia
+                - cell [ref=e350]:
+                  - link [ref=e351] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - img [ref=e353]
+                - cell "Ubah" [ref=e355]:
+                  - link "Ubah" [ref=e357] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/yamaha-nmax-155/edit
+                    - img [ref=e358]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 29 untuk tindakan massal. Kawasaki Z250 Kawasaki Naked MotoRent Jakarta Pusat 2022 250 cc Manual Rp 150.000 4.9 tersedia Ubah" [ref=e361]:
+                - cell "Buat/batalkan pilihan item 29 untuk tindakan massal." [ref=e362]:
+                  - checkbox "Buat/batalkan pilihan item 29 untuk tindakan massal." [ref=e363]
+                - cell [ref=e364]:
+                  - link [ref=e365] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - img [ref=e367]
+                - cell "Kawasaki Z250" [ref=e368]:
+                  - link "Kawasaki Z250" [ref=e369] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e370]: Kawasaki Z250
+                - cell "Kawasaki" [ref=e371]:
+                  - link "Kawasaki" [ref=e372] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e373]: Kawasaki
+                - cell "Naked" [ref=e374]:
+                  - link "Naked" [ref=e375] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e376]: Naked
+                - cell "MotoRent Jakarta Pusat" [ref=e377]:
+                  - link "MotoRent Jakarta Pusat" [ref=e378] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e379]: MotoRent Jakarta Pusat
+                - cell "2022" [ref=e380]:
+                  - link "2022" [ref=e381] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e382]: "2022"
+                - cell "250 cc" [ref=e383]:
+                  - link "250 cc" [ref=e384] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e385]: 250 cc
+                - cell "Manual" [ref=e386]:
+                  - link "Manual" [ref=e387] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e389]: Manual
+                - cell "Rp 150.000" [ref=e390]:
+                  - link "Rp 150.000" [ref=e391] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e392]: Rp 150.000
+                - cell "4.9" [ref=e393]:
+                  - link "4.9" [ref=e394] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e395]: "4.9"
+                - cell "tersedia" [ref=e396]:
+                  - link "tersedia" [ref=e397] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - generic [ref=e399]: tersedia
+                - cell [ref=e400]:
+                  - link [ref=e401] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - img [ref=e403]
+                - cell "Ubah" [ref=e405]:
+                  - link "Ubah" [ref=e407] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-z250/edit
+                    - img [ref=e408]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 30 untuk tindakan massal. Kawasaki KLX Kawasaki Trail MotoRent Yogyakarta 2022 150 cc Manual Rp 130.000 4.7 tersedia Ubah" [ref=e411]:
+                - cell "Buat/batalkan pilihan item 30 untuk tindakan massal." [ref=e412]:
+                  - checkbox "Buat/batalkan pilihan item 30 untuk tindakan massal." [ref=e413]
+                - cell [ref=e414]:
+                  - link [ref=e415] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - img [ref=e417]
+                - cell "Kawasaki KLX" [ref=e418]:
+                  - link "Kawasaki KLX" [ref=e419] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e420]: Kawasaki KLX
+                - cell "Kawasaki" [ref=e421]:
+                  - link "Kawasaki" [ref=e422] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e423]: Kawasaki
+                - cell "Trail" [ref=e424]:
+                  - link "Trail" [ref=e425] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e426]: Trail
+                - cell "MotoRent Yogyakarta" [ref=e427]:
+                  - link "MotoRent Yogyakarta" [ref=e428] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e429]: MotoRent Yogyakarta
+                - cell "2022" [ref=e430]:
+                  - link "2022" [ref=e431] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e432]: "2022"
+                - cell "150 cc" [ref=e433]:
+                  - link "150 cc" [ref=e434] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e435]: 150 cc
+                - cell "Manual" [ref=e436]:
+                  - link "Manual" [ref=e437] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e439]: Manual
+                - cell "Rp 130.000" [ref=e440]:
+                  - link "Rp 130.000" [ref=e441] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e442]: Rp 130.000
+                - cell "4.7" [ref=e443]:
+                  - link "4.7" [ref=e444] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e445]: "4.7"
+                - cell "tersedia" [ref=e446]:
+                  - link "tersedia" [ref=e447] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - generic [ref=e449]: tersedia
+                - cell [ref=e450]:
+                  - link [ref=e451] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - img [ref=e453]
+                - cell "Ubah" [ref=e455]:
+                  - link "Ubah" [ref=e457] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/kawasaki-klx/edit
+                    - img [ref=e458]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 31 untuk tindakan massal. Vespa Sprint Vespa Classic MotoRent Bali 2023 150 cc Matic Rp 120.000 4.9 tersedia Ubah" [ref=e461]:
+                - cell "Buat/batalkan pilihan item 31 untuk tindakan massal." [ref=e462]:
+                  - checkbox "Buat/batalkan pilihan item 31 untuk tindakan massal." [ref=e463]
+                - cell [ref=e464]:
+                  - link [ref=e465] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - img [ref=e467]
+                - cell "Vespa Sprint" [ref=e468]:
+                  - link "Vespa Sprint" [ref=e469] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e470]: Vespa Sprint
+                - cell "Vespa" [ref=e471]:
+                  - link "Vespa" [ref=e472] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e473]: Vespa
+                - cell "Classic" [ref=e474]:
+                  - link "Classic" [ref=e475] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e476]: Classic
+                - cell "MotoRent Bali" [ref=e477]:
+                  - link "MotoRent Bali" [ref=e478] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e479]: MotoRent Bali
+                - cell "2023" [ref=e480]:
+                  - link "2023" [ref=e481] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e482]: "2023"
+                - cell "150 cc" [ref=e483]:
+                  - link "150 cc" [ref=e484] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e485]: 150 cc
+                - cell "Matic" [ref=e486]:
+                  - link "Matic" [ref=e487] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e489]: Matic
+                - cell "Rp 120.000" [ref=e490]:
+                  - link "Rp 120.000" [ref=e491] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e492]: Rp 120.000
+                - cell "4.9" [ref=e493]:
+                  - link "4.9" [ref=e494] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e495]: "4.9"
+                - cell "tersedia" [ref=e496]:
+                  - link "tersedia" [ref=e497] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - generic [ref=e499]: tersedia
+                - cell [ref=e500]:
+                  - link [ref=e501] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - img [ref=e503]
+                - cell "Ubah" [ref=e505]:
+                  - link "Ubah" [ref=e507] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/vespa-sprint/edit
+                    - img [ref=e508]
+                    - text: Ubah
+              - row "Buat/batalkan pilihan item 32 untuk tindakan massal. Benelli Imperiale Benelli Classic MotoRent Jakarta Pusat 2021 374 cc Manual Rp 180.000 4.8 tersedia Ubah" [ref=e511]:
+                - cell "Buat/batalkan pilihan item 32 untuk tindakan massal." [ref=e512]:
+                  - checkbox "Buat/batalkan pilihan item 32 untuk tindakan massal." [ref=e513]
+                - cell [ref=e514]:
+                  - link [ref=e515] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - img [ref=e517]
+                - cell "Benelli Imperiale" [ref=e518]:
+                  - link "Benelli Imperiale" [ref=e519] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e520]: Benelli Imperiale
+                - cell "Benelli" [ref=e521]:
+                  - link "Benelli" [ref=e522] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e523]: Benelli
+                - cell "Classic" [ref=e524]:
+                  - link "Classic" [ref=e525] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e526]: Classic
+                - cell "MotoRent Jakarta Pusat" [ref=e527]:
+                  - link "MotoRent Jakarta Pusat" [ref=e528] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e529]: MotoRent Jakarta Pusat
+                - cell "2021" [ref=e530]:
+                  - link "2021" [ref=e531] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e532]: "2021"
+                - cell "374 cc" [ref=e533]:
+                  - link "374 cc" [ref=e534] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e535]: 374 cc
+                - cell "Manual" [ref=e536]:
+                  - link "Manual" [ref=e537] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e539]: Manual
+                - cell "Rp 180.000" [ref=e540]:
+                  - link "Rp 180.000" [ref=e541] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e542]: Rp 180.000
+                - cell "4.8" [ref=e543]:
+                  - link "4.8" [ref=e544] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e545]: "4.8"
+                - cell "tersedia" [ref=e546]:
+                  - link "tersedia" [ref=e547] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - generic [ref=e549]: tersedia
+                - cell [ref=e550]:
+                  - link [ref=e551] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - img [ref=e553]
+                - cell "Ubah" [ref=e555]:
+                  - link "Ubah" [ref=e557] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/motors/benelli-imperiale/edit
+                    - img [ref=e558]
+                    - text: Ubah
+          - navigation "Navigasi halaman" [ref=e561]:
+            - generic [ref=e564]:
+              - generic [ref=e566]: per halaman
+              - combobox "per halaman" [ref=e568]:
+                - option "5"
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+  - generic:
+    - status

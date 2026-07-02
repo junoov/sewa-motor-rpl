@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Buka menu navigasi" [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+      - link "MotoRent" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e7]
+        - generic [ref=e13]: MotoRent
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - article [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: P
+          - generic [ref=e19]:
+            - paragraph [ref=e20]: Akun MotoRent
+            - heading "Pelanggan Demo" [level=1] [ref=e21]
+            - paragraph [ref=e22]: pelanggan@motorent.test · 089876543210
+        - generic [ref=e23]:
+          - generic [ref=e24]: terverifikasi
+          - link "Edit Profil" [ref=e25] [cursor=pointer]:
+            - /url: "#account-profile"
+          - button "Keluar" [ref=e27]
+      - generic [ref=e28]:
+        - complementary [ref=e29]:
+          - navigation "Navigasi akun" [ref=e30]:
+            - button "Profil Saya" [ref=e31] [cursor=pointer]:
+              - img [ref=e32]
+              - generic [ref=e35]: Profil Saya
+            - button "Ringkasan Aktivitas" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e38]: Ringkasan Aktivitas
+            - button "Verifikasi" [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+              - generic [ref=e43]: Verifikasi
+          - generic [ref=e44]:
+            - strong [ref=e45]: Butuh akses cepat?
+            - paragraph [ref=e46]: Buka detail booking terakhir atau update data profil sebelum lanjut checkout lagi.
+        - article [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - heading "Profil Saya" [level=2] [ref=e51]
+              - paragraph [ref=e52]: Perbarui data akun agar proses pemesanan dan verifikasi berjalan lebih mulus.
+            - generic [ref=e53]:
+              - generic [ref=e54]: P
+              - generic [ref=e55]:
+                - strong [ref=e56]: Pelanggan Demo
+                - generic [ref=e57]: "@pelanggandemo"
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: Nama lengkap
+              - textbox "Nama lengkap" [ref=e61]: Pelanggan Demo
+            - generic [ref=e62]:
+              - generic [ref=e63]: Email
+              - textbox "Email" [ref=e64]: pelanggan@motorent.test
+            - generic [ref=e65]:
+              - generic [ref=e66]: No. HP
+              - textbox "No. HP" [ref=e67]: "089876543210"
+            - generic [ref=e68]:
+              - generic [ref=e69]: Username
+              - textbox "Username" [disabled] [ref=e70]: "@pelanggandemo"
+            - generic [ref=e71]:
+              - generic [ref=e72]: Alamat
+              - textbox "Alamat" [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e75]: Password baru
+              - textbox "Password baru" [ref=e76]:
+                - /placeholder: Kosongkan jika tidak ingin mengubah
+            - generic [ref=e77]:
+              - generic [ref=e78]: Konfirmasi password baru
+              - textbox "Konfirmasi password baru" [ref=e79]
+            - button "Simpan Perubahan" [ref=e81] [cursor=pointer]

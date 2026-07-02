@@ -1,0 +1,38 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Beranda" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+      - link "MotoRent" [ref=e7] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e8]
+        - generic [ref=e13]: MotoRent
+      - link "Akun Saya" [ref=e14] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account
+        - img [ref=e15]
+    - generic [ref=e18]:
+      - heading "Akun Saya" [level=2] [ref=e19]
+      - paragraph [ref=e20]: Kelola informasi akun dan keamanan Anda
+    - navigation "Navigasi akun" [ref=e21]:
+      - button "Profil Saya" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e26]: Profil Saya
+      - button "Ringkasan Aktivitas" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+        - generic [ref=e29]: Ringkasan Aktivitas
+      - button "Verifikasi" [active] [ref=e30] [cursor=pointer]:
+        - img [ref=e31]
+        - generic [ref=e34]: Verifikasi
+    - article [ref=e65]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: terverifikasi
+        - heading "Status Verifikasi" [level=2] [ref=e69]
+        - paragraph [ref=e70]: Pastikan data identitas lengkap sebelum proses verifikasi lanjutan.
+      - generic [ref=e71]:
+        - article [ref=e72]:
+          - generic [ref=e73]: KTP
+          - strong [ref=e74]: Belum upload
+        - article [ref=e75]:
+          - generic [ref=e76]: SIM
+          - strong [ref=e77]: Belum upload

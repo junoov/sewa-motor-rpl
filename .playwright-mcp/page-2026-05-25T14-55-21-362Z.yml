@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - button "Perluas menu" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - button "Menu pengguna" [ref=e10] [cursor=pointer]:
+      - img "Avatar Admin MotoRent" [ref=e11]
+  - generic [ref=e12]:
+    - complementary [ref=e13]:
+      - link "MotoRent" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - generic [ref=e18]: MotoRent
+      - navigation [ref=e19]:
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Dasbor" [ref=e24] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin
+                  - img [ref=e25]
+                  - generic [ref=e27]: Dasbor
+              - listitem [ref=e28]:
+                - link "Booking" [ref=e29] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/bookings
+                  - img [ref=e30]
+                  - generic [ref=e32]: Booking
+              - listitem [ref=e33]:
+                - link "Brand" [ref=e34] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/brands
+                  - img [ref=e35]
+                  - generic [ref=e37]: Brand
+              - listitem [ref=e38]:
+                - link "Location" [ref=e39] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/locations
+                  - img [ref=e40]
+                  - generic [ref=e42]: Location
+              - listitem [ref=e43]:
+                - link "Motor Type" [ref=e44] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/motor-types
+                  - img [ref=e45]
+                  - generic [ref=e47]: Motor Type
+              - listitem [ref=e48]:
+                - link "Motor" [ref=e49] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/motors
+                  - img [ref=e50]
+                  - generic [ref=e52]: Motor
+              - listitem [ref=e53]:
+                - link "Payment" [ref=e54] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/payments
+                  - img [ref=e55]
+                  - generic [ref=e57]: Payment
+              - listitem [ref=e58]:
+                - link "User" [ref=e59] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/users
+                  - img [ref=e60]
+                  - generic [ref=e62]: User
+              - listitem [ref=e63]:
+                - link "Wishlist" [ref=e64] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/wishlists
+                  - img [ref=e65]
+                  - generic [ref=e67]: Wishlist
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - heading "Dasbor" [level=1] [ref=e74]
+        - generic [ref=e81]:
+          - generic [ref=e85]:
+            - img "Avatar Admin MotoRent" [ref=e86]
+            - generic [ref=e87]:
+              - heading "Selamat Datang" [level=2] [ref=e88]
+              - paragraph [ref=e89]: Admin MotoRent
+            - button "Keluar" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - text: Keluar
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - link "Filament" [ref=e100] [cursor=pointer]:
+                - /url: https://filamentphp.com
+                - img "Filament" [ref=e101]
+              - paragraph [ref=e112]: v4.11.5
+            - generic [ref=e113]:
+              - link "Dokumentasi" [ref=e114] [cursor=pointer]:
+                - /url: https://filamentphp.com/docs
+                - img [ref=e115]
+                - text: Dokumentasi
+              - link "GitHub" [ref=e117] [cursor=pointer]:
+                - /url: https://github.com/filamentphp/filament
+                - img [ref=e119]
+                - text: GitHub
+  - generic:
+    - status

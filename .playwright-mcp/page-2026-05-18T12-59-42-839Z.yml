@@ -1,0 +1,162 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kembali ke akun" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/account
+        - img [ref=e6]
+      - generic [ref=e8]: Riwayat Booking
+      - link "Cari motor" [ref=e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/cari-motor
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Pesanan Saya
+        - heading "Riwayat Booking" [level=1] [ref=e16]
+        - paragraph [ref=e17]: Lacak semua pemesananmu di satu tempat. Gunakan filter untuk mencari booking tertentu.
+      - link "Cari Motor" [ref=e18] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/cari-motor
+        - img [ref=e19]
+        - text: Cari Motor
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e25]
+        - textbox "Cari nomor order atau nama motor..." [ref=e28]
+      - combobox [ref=e29] [cursor=pointer]:
+        - option "Semua Status" [selected]
+        - option "Menunggu Pembayaran"
+        - option "Menunggu Konfirmasi"
+        - option "Dikonfirmasi"
+        - option "Berlangsung"
+        - option "Selesai"
+        - option "Dibatalkan"
+      - combobox [ref=e30] [cursor=pointer]:
+        - option "Semua Bulan" [selected]
+        - option "April 2026"
+      - button "Terapkan" [ref=e31] [cursor=pointer]
+    - generic [ref=e32]:
+      - 'link "Honda Vario 125 Honda Vario 125 Dibatalkan #MR-20260429-NO8BC 30 Apr 2026 – 08 May 2026 Yogyakarta Rp 570.000 8 hari" [ref=e33] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-NO8BC
+        - img "Honda Vario 125" [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - strong [ref=e37]: Honda Vario 125
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - text: Dibatalkan
+          - generic [ref=e43]: "#MR-20260429-NO8BC"
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - text: 30 Apr 2026 – 08 May 2026
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - text: Yogyakarta
+        - generic [ref=e52]:
+          - generic [ref=e53]: Rp 570.000
+          - generic [ref=e54]: 8 hari
+        - img [ref=e55]
+      - 'link "Honda Vario 125 Honda Vario 125 menunggu pembayaran #MR-20260429-9NCMB 30 Apr 2026 – 05 May 2026 Jakarta Rp 360.000 5 hari" [ref=e57] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-9NCMB
+        - img "Honda Vario 125" [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - strong [ref=e61]: Honda Vario 125
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - text: menunggu pembayaran
+          - generic [ref=e66]: "#MR-20260429-9NCMB"
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - text: 30 Apr 2026 – 05 May 2026
+            - generic [ref=e71]:
+              - img [ref=e72]
+              - text: Jakarta
+        - generic [ref=e75]:
+          - generic [ref=e76]: Rp 360.000
+          - generic [ref=e77]: 5 hari
+        - img [ref=e78]
+      - 'link "Honda Vario 125 Honda Vario 125 menunggu pembayaran #MR-20260429-IRFKE 30 Apr 2026 – 19 May 2026 Jakarta Rp 1.340.000 19 hari" [ref=e80] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-IRFKE
+        - img "Honda Vario 125" [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - strong [ref=e84]: Honda Vario 125
+            - generic [ref=e85]:
+              - img [ref=e86]
+              - text: menunggu pembayaran
+          - generic [ref=e89]: "#MR-20260429-IRFKE"
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - text: 30 Apr 2026 – 19 May 2026
+            - generic [ref=e94]:
+              - img [ref=e95]
+              - text: Jakarta
+        - generic [ref=e98]:
+          - generic [ref=e99]: Rp 1.340.000
+          - generic [ref=e100]: 19 hari
+        - img [ref=e101]
+      - 'link "Honda Vario 125 Honda Vario 125 menunggu pembayaran #MR-20260429-NRJGL 30 Apr 2026 – 02 May 2026 Jakarta Rp 150.000 2 hari" [ref=e103] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-NRJGL
+        - img "Honda Vario 125" [ref=e104]
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - strong [ref=e107]: Honda Vario 125
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - text: menunggu pembayaran
+          - generic [ref=e112]: "#MR-20260429-NRJGL"
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img [ref=e115]
+              - text: 30 Apr 2026 – 02 May 2026
+            - generic [ref=e117]:
+              - img [ref=e118]
+              - text: Jakarta
+        - generic [ref=e121]:
+          - generic [ref=e122]: Rp 150.000
+          - generic [ref=e123]: 2 hari
+        - img [ref=e124]
+      - 'link "Honda Vario 125 Honda Vario 125 menunggu pembayaran #MR-20260429-WKU8C 30 Apr 2026 – 02 May 2026 Jakarta Rp 150.000 2 hari" [ref=e126] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-WKU8C
+        - img "Honda Vario 125" [ref=e127]
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - strong [ref=e130]: Honda Vario 125
+            - generic [ref=e131]:
+              - img [ref=e132]
+              - text: menunggu pembayaran
+          - generic [ref=e135]: "#MR-20260429-WKU8C"
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img [ref=e138]
+              - text: 30 Apr 2026 – 02 May 2026
+            - generic [ref=e140]:
+              - img [ref=e141]
+              - text: Jakarta
+        - generic [ref=e144]:
+          - generic [ref=e145]: Rp 150.000
+          - generic [ref=e146]: 2 hari
+        - img [ref=e147]
+      - 'link "Honda Vario 125 Honda Vario 125 menunggu pembayaran #MR-20260429-A5M2X 30 Apr 2026 – 02 May 2026 Jakarta Rp 150.000 2 hari" [ref=e149] [cursor=pointer]':
+        - /url: http://127.0.0.1:8000/bookings/MR-20260429-A5M2X
+        - img "Honda Vario 125" [ref=e150]
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - strong [ref=e153]: Honda Vario 125
+            - generic [ref=e154]:
+              - img [ref=e155]
+              - text: menunggu pembayaran
+          - generic [ref=e158]: "#MR-20260429-A5M2X"
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - img [ref=e161]
+              - text: 30 Apr 2026 – 02 May 2026
+            - generic [ref=e163]:
+              - img [ref=e164]
+              - text: Jakarta
+        - generic [ref=e167]:
+          - generic [ref=e168]: Rp 150.000
+          - generic [ref=e169]: 2 hari
+        - img [ref=e170]

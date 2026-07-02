@@ -1,0 +1,74 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MotoRent" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - generic [ref=e12]: MotoRent
+          - generic [ref=e13]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e14]:
+        - link "Beranda" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e18] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e19]:
+        - link "Favorit" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e21]
+          - text: Favorit
+        - link "Akun" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account
+          - img [ref=e24]
+          - text: Akun
+          - img [ref=e27]
+        - button "Keluar" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+          - text: Keluar
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - link "Kembali ke halaman sebelumnya" [ref=e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account#account-activity
+          - img [ref=e38]
+        - generic [ref=e40]:
+          - heading "Pembayaran" [level=1] [ref=e41]
+          - paragraph [ref=e42]: Selesaikan pembayaran sebelum batas waktu berakhir.
+      - generic [ref=e43]:
+        - article [ref=e45]:
+          - heading "Ringkasan Pesanan" [level=2] [ref=e46]
+          - generic [ref=e47]:
+            - img "Honda Beat" [ref=e48]
+            - generic [ref=e49]:
+              - heading "Honda Beat" [level=3] [ref=e50]
+              - generic [ref=e52]:
+                - img [ref=e53]
+                - text: 21 Mei 2026 – 29 Mei 2026 (8 Hari)
+              - generic [ref=e56]:
+                - img [ref=e57]
+                - text: Jl. Sudirman No. 10, Jakarta
+              - generic [ref=e61]:
+                - img [ref=e62]
+                - text: "Kode Booking: MR-20260514-ULDXC"
+          - generic [ref=e63]:
+            - generic [ref=e64]: Total
+            - strong [ref=e65]: Rp 450.000
+        - article [ref=e67]:
+          - heading "Ringkasan Pembayaran" [level=2] [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: Total Pembayaran
+            - strong [ref=e71]: Rp 450.000
+          - generic [ref=e72]:
+            - generic [ref=e73]: Status Pembayaran
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - text: Dibatalkan
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - generic [ref=e83]: Pesanan ini dibatalkan karena melewati batas waktu pembayaran.
+          - link "Cari Motor Lain" [ref=e84] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/cari-motor

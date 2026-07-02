@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MotoRent" [ref=e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e6]
+        - generic [ref=e11]:
+          - generic [ref=e12]: MotoRent
+          - generic [ref=e13]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e14]:
+        - link "Beranda" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e18] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e19]:
+        - link "Favorit" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e21]
+          - text: Favorit
+        - link "Akun" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account
+          - img [ref=e24]
+          - text: Akun
+          - img [ref=e27]
+        - button "Keluar" [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+          - text: Keluar
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - link "Kembali ke halaman sebelumnya" [ref=e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account#account-activity
+          - img [ref=e38]
+        - generic [ref=e40]:
+          - heading "Pembayaran" [level=1] [ref=e41]
+          - paragraph [ref=e42]: Selesaikan pembayaran sebelum batas waktu berakhir.
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - img [ref=e45]
+          - generic [ref=e48]:
+            - generic [ref=e49]: Batas pembayaran
+            - generic [ref=e50]: 01:46:06
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - generic [ref=e54]:
+            - generic [ref=e55]: Batas akhir pembayaran
+            - generic [ref=e56]: 14 Mei 2026 20:36 WIB
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - article [ref=e59]:
+            - heading "Ringkasan Pesanan" [level=2] [ref=e60]
+            - generic [ref=e61]:
+              - img "Kawasaki Z250" [ref=e62]
+              - generic [ref=e63]:
+                - heading "Kawasaki Z250" [level=3] [ref=e64]
+                - generic [ref=e66]:
+                  - img [ref=e67]
+                  - text: 15 Mei 2026 – 17 Mei 2026 (2 Hari)
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - text: Jl. Sudirman No. 10, Jakarta
+                - generic [ref=e75]:
+                  - img [ref=e76]
+                  - text: "Kode Booking: MR-20260514-8FAJJ"
+            - generic [ref=e77]:
+              - generic [ref=e78]: Total
+              - strong [ref=e79]: Rp 310.000
+          - article [ref=e80]:
+            - heading "Informasi Transfer" [level=2] [ref=e81]
+            - generic [ref=e82]:
+              - generic [ref=e83]: GoPay
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]: Nomor Rekening
+                  - generic [ref=e87]: 0812 3456 7890
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Atas Nama
+                  - generic [ref=e90]: PT MotoRent Indonesia
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Total Transfer
+                  - generic [ref=e93]: Rp 310.000
+          - article [ref=e94]:
+            - heading "Langkah Pembayaran" [level=2] [ref=e95]
+            - list [ref=e96]:
+              - listitem [ref=e97]: Buka aplikasi Gojek.
+              - listitem [ref=e98]: Pilih menu GoPay dan tap "Kirim".
+              - listitem [ref=e99]: Masukkan nomor 0812 3456 7890.
+              - listitem [ref=e100]: Masukkan nominal sesuai total.
+              - listitem [ref=e101]: Konfirmasi pembayaran.
+        - article [ref=e103]:
+          - heading "Ringkasan Pembayaran" [level=2] [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Total Pembayaran
+            - strong [ref=e107]: Rp 310.000
+          - generic [ref=e108]:
+            - generic [ref=e109]: Status Pembayaran
+            - generic [ref=e110]:
+              - img [ref=e111]
+              - text: Menunggu pembayaran
+          - generic [ref=e114]:
+            - generic [ref=e115]: Batas pembayaran
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - generic [ref=e120]: 01:46:06
+            - generic [ref=e121]:
+              - img [ref=e122]
+              - generic [ref=e124]: 14 Mei 2026 20:36 WIB
+          - link "Konfirmasi Pembayaran" [ref=e125] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/bookings/MR-20260514-8FAJJ/konfirmasi
+            - text: Konfirmasi Pembayaran
+            - img [ref=e126]
+          - button "Batalkan Pesanan" [ref=e129] [cursor=pointer]
+          - link "Lihat Invoice" [ref=e130] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/bookings/MR-20260514-8FAJJ/invoice

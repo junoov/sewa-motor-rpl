@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MotoRent" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e5]
+        - generic [ref=e10]:
+          - generic [ref=e11]: MotoRent
+          - generic [ref=e12]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e13]:
+        - link "Beranda" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e18]:
+        - link "Favorit" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e20]
+          - text: Favorit
+        - link "Akun" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/account
+          - img [ref=e23]
+          - text: Akun
+          - img [ref=e26]
+  - main [ref=e28]:
+    - region "Detail motor Honda Vario 125" [ref=e29]:
+      - navigation "Breadcrumb" [ref=e30]:
+        - link "Beranda" [ref=e31] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e32]: ›
+        - link "Cari Motor" [ref=e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - generic [ref=e34]: ›
+        - strong [ref=e35]: Honda Vario 125
+      - generic [ref=e36]:
+        - article [ref=e37]:
+          - generic [ref=e38]: 1 / 5
+          - generic [ref=e39]:
+            - button "Gambar sebelumnya" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+            - img "Honda Vario 125 tampak depan" [ref=e43]
+            - button "Gambar berikutnya" [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+          - generic "Galeri Honda Vario 125" [ref=e47]:
+            - button "Honda Vario 125 tampak depan" [ref=e48] [cursor=pointer]:
+              - img "Honda Vario 125 tampak depan" [ref=e49]
+            - button "Honda Vario 125 body samping" [ref=e50] [cursor=pointer]:
+              - img "Honda Vario 125 body samping" [ref=e51]
+            - button "Honda Vario 125 tampak belakang" [ref=e52] [cursor=pointer]:
+              - img "Honda Vario 125 tampak belakang" [ref=e53]
+            - button "Honda Vario 125 tampak katalog" [ref=e54] [cursor=pointer]:
+              - img "Honda Vario 125 tampak katalog" [ref=e55]
+            - button "Detail spion dan headlamp Honda Vario 125" [ref=e56] [cursor=pointer]:
+              - img "Detail spion dan headlamp Honda Vario 125" [ref=e57]
+        - complementary [ref=e58]:
+          - heading "Honda Vario 125" [level=1] [ref=e59]
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - text: 4.9 (120+ review)
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - text: 2 Helm
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: 125 cc
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - text: Matic
+          - paragraph [ref=e79]: Motor terawat, bersih, dan siap dipakai untuk perjalanan harian maupun liburan.
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - strong [ref=e82]: Rp 70.000
+              - generic [ref=e83]: /hari
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: Tanggal Mulai
+                - generic [ref=e87]:
+                  - img [ref=e88]
+                  - text: 13/05/2026
+              - generic [ref=e90]: "-"
+              - generic [ref=e91]:
+                - generic [ref=e92]: Tanggal Selesai
+                - generic [ref=e93]:
+                  - img [ref=e94]
+                  - text: 16/05/2026
+            - link "Booking Sekarang" [ref=e96] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/bookings/create/honda-vario-125
+      - region "Spesifikasi ringkas Honda Vario 125" [ref=e97]:
+        - article [ref=e98]:
+          - img [ref=e99]
+          - generic [ref=e101]:
+            - text: Tahun
+            - strong [ref=e102]: "2024"
+        - article [ref=e103]:
+          - img [ref=e104]
+          - generic [ref=e107]:
+            - text: Kapasitas
+            - strong [ref=e108]: 2 Orang
+        - article [ref=e109]:
+          - img [ref=e110]
+          - generic [ref=e114]:
+            - text: Bahan Bakar
+            - strong [ref=e115]: Bensin
+        - article [ref=e116]:
+          - img [ref=e117]
+          - generic [ref=e120]:
+            - text: Bagasi
+            - strong [ref=e121]: Bisa
+      - article [ref=e122]:
+        - heading "Deskripsi" [level=2] [ref=e123]
+        - paragraph [ref=e124]: Motor terawat, bersih, dan siap dipakai untuk perjalanan harian maupun liburan. Dengan desain modern dan fitur lengkap, Honda Vario 125 siap menemani aktivitas Anda setiap hari.

@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MotoRent" [ref=e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e5]
+        - generic [ref=e10]:
+          - generic [ref=e11]: MotoRent
+          - generic [ref=e12]: Sewa motor mudah & terpercaya
+      - navigation "Navigasi utama" [ref=e13]:
+        - link "Beranda" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Cari Motor" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor
+        - link "Cara Sewa" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#cara-sewa
+        - link "Bantuan" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000#bantuan
+      - generic [ref=e18]:
+        - link "Favorit" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/cari-motor?sort=popular
+          - img [ref=e20]
+          - text: Favorit
+        - link "Akun" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+          - img [ref=e23]
+          - text: Akun
+          - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - complementary [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img [ref=e33]
+          - generic [ref=e34]: MotoRent
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - heading [level=2] [ref=e37]: Buat Akun, Sewa Jadi Lebih Mudah
+            - paragraph [ref=e38]: Daftar untuk menyimpan motor favorit, mempercepat proses booking, dan memantau semua pesananmu di satu tempat.
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - img [ref=e42]
+              - generic [ref=e45]:
+                - strong [ref=e46]: Proses cepat & mudah
+                - generic [ref=e47]: Daftar hanya dalam hitungan detik.
+            - generic [ref=e48]:
+              - img [ref=e50]
+              - generic [ref=e52]:
+                - strong [ref=e53]: Promo eksklusif
+                - generic [ref=e54]: Dapatkan penawaran khusus untuk member terdaftar.
+            - generic [ref=e55]:
+              - img [ref=e57]
+              - generic [ref=e59]:
+                - strong [ref=e60]: Riwayat sewa tersimpan
+                - generic [ref=e61]: Kelola semua pesanan dan perjalanan favorit dengan rapi.
+        - img [ref=e63]
+      - article [ref=e64]:
+        - generic [ref=e65]:
+          - heading "Buat Akun Baru" [level=1] [ref=e66]
+          - paragraph [ref=e67]: Isi data di bawah untuk membuat akun dan mulai sewa motor favoritmu dengan lebih cepat.
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Nama Lengkap
+            - textbox "Nama Lengkap" [ref=e71]:
+              - /placeholder: Masukkan nama lengkap
+          - generic [ref=e72]:
+            - generic [ref=e73]: Email
+            - textbox "Email" [ref=e74]:
+              - /placeholder: Masukkan email aktif
+          - generic [ref=e75]:
+            - generic [ref=e76]: Nomor Telepon
+            - textbox "Nomor Telepon" [ref=e77]:
+              - /placeholder: "Contoh: 0812 3456 7890"
+          - generic [ref=e78]:
+            - generic [ref=e79]: Kata Sandi
+            - generic [ref=e80]:
+              - textbox "Kata Sandi" [ref=e81]:
+                - /placeholder: Buat kata sandi
+              - button "Tampilkan kata sandi" [ref=e82] [cursor=pointer]:
+                - img [ref=e83]
+            - generic [ref=e86]: Minimal 8 karakter, wajib ada huruf dan angka.
+          - generic [ref=e87]:
+            - generic [ref=e88]: Konfirmasi Kata Sandi
+            - generic [ref=e89]:
+              - textbox "Konfirmasi Kata Sandi" [ref=e90]:
+                - /placeholder: Ulangi kata sandi
+              - button "Tampilkan konfirmasi kata sandi" [ref=e91] [cursor=pointer]:
+                - img [ref=e92]
+          - generic [ref=e95]:
+            - checkbox "Saya setuju dengan Syarat dan Kebijakan Privasi MotoRent." [checked] [ref=e96]
+            - generic [ref=e97]:
+              - text: Saya setuju dengan
+              - strong [ref=e98]: Syarat
+              - text: dan
+              - strong [ref=e99]: Kebijakan Privasi
+              - text: MotoRent.
+          - button "Daftar" [ref=e100] [cursor=pointer]
+        - paragraph [ref=e101]:
+          - text: Sudah punya akun?
+          - link "Masuk sekarang" [ref=e102] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
