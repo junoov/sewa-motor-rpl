@@ -12,6 +12,13 @@ if [ $# -eq 0 ]; then
         composer install --optimize-autoloader --no-interaction
     fi
 
+    # Build asset frontend (Vite) otomatis di dalam container
+    if [ ! -d public/build ]; then
+        echo "Building frontend assets..."
+        npm install --no-audit --no-fund --quiet
+        npm run build
+    fi
+
     # Copy .env.docker jika .env belum ada di container
     IS_FIRST_RUN=false
     if [ ! -f .env ]; then

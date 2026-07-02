@@ -4,7 +4,7 @@ FROM php:8.4-fpm-alpine
 RUN apk add --no-cache \
     git curl zip unzip libzip-dev libpng-dev libjpeg-turbo-dev \
     freetype-dev icu-dev oniguruma-dev libxml2-dev \
-    linux-headers $PHPIZE_DEPS
+    linux-headers nodejs npm $PHPIZE_DEPS
 
 # Install PHP extensions (semua yang dibutuhkan Laravel 12 + Filament 4)
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
