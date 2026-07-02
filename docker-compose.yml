@@ -26,7 +26,7 @@ services:
   # 3. MYSQL 8
   mysql:
     image: mysql:8.0
-    ports: ["3307:3306"]  # Diubah ke 3307 agar tidak bentrok dengan Laragon/XAMPP
+    ports: ["33306:3306"]  # Diubah ke 33306 agar super aman dari port Laragon/XAMPP
     environment:
       MYSQL_DATABASE: sewa_motor_rpl
       MYSQL_ROOT_PASSWORD: secret
