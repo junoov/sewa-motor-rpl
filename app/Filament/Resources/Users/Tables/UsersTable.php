@@ -83,7 +83,6 @@ class UsersTable
                     DeleteBulkAction::make(),
                 ]),
             ])
-            ->deferLoading()
             ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();

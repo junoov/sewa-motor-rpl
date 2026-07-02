@@ -53,7 +53,6 @@ class LocationsTable
                     DeleteBulkAction::make(),
                 ]),
             ])
-            ->deferLoading()
             ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();

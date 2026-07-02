@@ -38,7 +38,6 @@ class WishlistsTable
                     DeleteBulkAction::make(),
                 ]),
             ])
-            ->deferLoading()
             ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();

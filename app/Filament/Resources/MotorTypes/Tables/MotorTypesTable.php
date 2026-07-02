@@ -42,7 +42,6 @@ class MotorTypesTable
                     DeleteBulkAction::make(),
                 ]),
             ])
-            ->deferLoading()
             ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();

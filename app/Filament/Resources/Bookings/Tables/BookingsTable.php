@@ -83,7 +83,6 @@ class BookingsTable
                     DeleteBulkAction::make(),
                 ]),
             ])
-            ->deferLoading()
             ->poll(null)
             ->persistSearchInSession()
             ->persistFiltersInSession();
