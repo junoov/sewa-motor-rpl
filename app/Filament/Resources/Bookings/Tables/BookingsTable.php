@@ -82,6 +82,10 @@ class BookingsTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->deferLoading()
+            ->polling('')
+            ->persistSearchInSession()
+            ->persistFiltersInSession();
     }
 }

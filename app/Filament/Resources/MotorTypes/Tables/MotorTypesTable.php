@@ -41,6 +41,10 @@ class MotorTypesTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->deferLoading()
+            ->polling('')
+            ->persistSearchInSession()
+            ->persistFiltersInSession();
     }
 }

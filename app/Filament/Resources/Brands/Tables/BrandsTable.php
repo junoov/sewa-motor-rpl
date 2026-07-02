@@ -17,7 +17,8 @@ class BrandsTable
             ->columns([
                 ImageColumn::make('logo_path')
                     ->label('Logo')
-                    ->square(),
+                    ->square()
+                    ->loading('lazy'),
                 TextColumn::make('name')
                     ->label('Brand')
                     ->searchable()
@@ -45,6 +46,10 @@ class BrandsTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->deferLoading()
+            ->polling('')
+            ->persistSearchInSession()
+            ->persistFiltersInSession();
     }
 }

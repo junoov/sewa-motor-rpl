@@ -45,11 +45,13 @@ class UsersTable
                 ImageColumn::make('ktp_path')
                     ->label('KTP')
                     ->square()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                    ->toggleable(isToggledHiddenByDefault: true)
+                    ->loading('lazy'),
                 ImageColumn::make('sim_path')
                     ->label('SIM')
                     ->square()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                    ->toggleable(isToggledHiddenByDefault: true)
+                    ->loading('lazy'),
                 TextColumn::make('email_verified_at')
                     ->label('Email Verified')
                     ->dateTime('d M Y H:i')
@@ -82,6 +84,10 @@ class UsersTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->deferLoading()
+            ->polling('')
+            ->persistSearchInSession()
+            ->persistFiltersInSession();
     }
 }

@@ -61,6 +61,10 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ]);
+            ])
+            ->renderHook(
+                'head',
+                fn () => '<meta name="turbo-cache-control" content="no-cache">',
+            );
     }
 }

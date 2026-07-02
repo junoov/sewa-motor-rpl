@@ -21,7 +21,8 @@ class MotorsTable
                 ImageColumn::make('image_path')
                     ->label('Foto')
                     ->getStateUsing(fn (Motor $record): string => $record->image_url)
-                    ->square(),
+                    ->square()
+                    ->loading('lazy'),
                 TextColumn::make('name')
                     ->label('Motor')
                     ->searchable()
@@ -80,10 +81,14 @@ class MotorsTable
             ->filters([
                 SelectFilter::make('brand_id')
                     ->label('Brand')
-                    ->relationship('brand', 'name'),
+                    ->relationship('brand', 'name')
+                    ->searchable()
+                    ->preload(),
                 SelectFilter::make('location_id')
                     ->label('Lokasi')
-                    ->relationship('location', 'name'),
+                    ->relationship('location', 'name')
+                    ->searchable()
+                    ->preload(),
                 SelectFilter::make('status')
                     ->options([
                         'tersedia' => 'Tersedia',
@@ -99,6 +104,10 @@ class MotorsTable
                 BulkActionGroup::make([
                     DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])
+            ->deferLoading()
+            ->polling('')
+            ->persistSearchInSession()
+            ->persistFiltersInSession();
     }
 }
