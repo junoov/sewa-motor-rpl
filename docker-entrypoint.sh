@@ -38,13 +38,18 @@ if [ $# -eq 0 ]; then
     mkdir -p storage/logs
     chmod -R 777 storage bootstrap/cache 2>/dev/null || true
 
-    # Run migrations & seed (Otomatis seed di awal pembuatan project)
-    if [ "$IS_FIRST_RUN" = "true" ]; then
-        echo "🗃️ First run detected! Running migrations and seeding demo data..."
-        php artisan migrate:fresh --seed --force
+    # Run migrations
+    echo "🗃️ Running migrations..."
+    php artisan migrate --force
+
+    # Cek apakah database butuh di-seed (jika jumlah motor = 0)
+    echo "🌱 Checking if database needs seeding..."
+    DB_MOTOR_COUNT=$(php artisan tinker --execute="echo App\Models\Motor::count();" 2>/dev/null | tr -d '\r\n[:space:]')
+    if [ "$DB_MOTOR_COUNT" = "0" ]; then
+        echo "🌱 Database empty! Seeding initial demo data..."
+        php artisan db:seed --force
     else
-        echo "🗃️ Running migrations..."
-        php artisan migrate --force
+        echo "✅ Database already has data (Count: $DB_MOTOR_COUNT). Skipping seed."
     fi
 
     # Filament upgrade cache
