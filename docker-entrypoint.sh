@@ -30,8 +30,13 @@ if [ $# -eq 0 ]; then
     # Storage link
     php artisan storage:link --force 2>/dev/null || true
 
-    # Pastikan storage directories writable
-    chmod -R 775 storage bootstrap/cache 2>/dev/null || true
+    # Pastikan storage directories ada dan writable
+    echo "📁 Ensuring storage directories exist..."
+    mkdir -p storage/framework/cache/data
+    mkdir -p storage/framework/views
+    mkdir -p storage/framework/sessions
+    mkdir -p storage/logs
+    chmod -R 777 storage bootstrap/cache 2>/dev/null || true
 
     # Run migrations & seed (Otomatis seed di awal pembuatan project)
     if [ "$IS_FIRST_RUN" = "true" ]; then
