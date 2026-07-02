@@ -1,8 +1,8 @@
-FROM php:8.2-fpm-alpine
+FROM php:8.4-fpm-alpine
 
 # Install system dependencies
 RUN apk add --no-cache \
-    git curl zip unzip libpng-dev libjpeg-turbo-dev \
+    git curl zip unzip libzip-dev libpng-dev libjpeg-turbo-dev \
     freetype-dev icu-dev oniguruma-dev libxml2-dev \
     linux-headers $PHPIZE_DEPS
 
@@ -10,7 +10,7 @@ RUN apk add --no-cache \
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql mbstring exif pcntl bcmath gd intl \
-        xml ctype fileinfo opcache
+        xml ctype fileinfo opcache zip
 
 # Install Redis PHP extension
 RUN pecl install redis && docker-php-ext-enable redis
