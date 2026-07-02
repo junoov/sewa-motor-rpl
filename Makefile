@@ -30,3 +30,8 @@ fresh:               # docker compose exec app php artisan migrate:fresh --seed
 
 cache-clear:         # docker compose exec app php artisan optimize:clear
 	docker compose exec app php artisan optimize:clear
+
+nuke:                # Hapus BERSIH semua container, volume, images, dan reset app (hapus .env & vendor)
+	docker compose down -v --rmi all --remove-orphans
+	-del /f /q .env 2>nul
+	-rmdir /s /q vendor 2>nul
